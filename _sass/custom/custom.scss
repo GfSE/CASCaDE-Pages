@@ -1,0 +1,64 @@
+/* borrowed from webslides */
+/*=== div.size-60, img.size-50, h1.size-40, p.size-30... === */
+@media (min-width: 1024px) {
+  .size-80 {
+    max-width: 80%; }
+  .size-70 {
+    max-width: 70%; }
+  .size-60 {
+    max-width: 60%; }
+  .size-50 {
+    max-width: 50%; }
+  .size-40 {
+    max-width: 40%; }
+  .size-30 {
+    max-width: 30%; }
+  .size-20 {
+    max-width: 20%; } 
+}
+	
+.my-align-center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+img.my-align-center {
+  display: block;
+  margin: .8rem 0 .8rem 0; 
+}
+img.my-align-right,
+svg.my-align-right,
+img.my-align-left,
+svg.my-align-left {
+  margin: .8rem 0 .8rem 0; 
+}
+@media (min-width: 1024px) {
+  img.my-align-right,
+  svg.my-align-right {
+    float: right;
+    margin-left: 1.6rem; }
+}
+@media (min-width: 1024px) {
+  img.my-align-left,
+  svg.my-align-left {
+    float: left;
+    margin-right: 1.6rem; }
+}
+/* supersede Just-the-Docs styles */
+@media (min-width: 31.25rem) {
+	h2 {
+		font-size: 1.9rem !important;
+		font-weight: 300;
+	}
+	h3 {
+		font-size: 1.6rem !important;
+		font-weight: 300;
+	}
+	h4 {
+		font-size: 1.3rem !important;
+		text-transform: none;
+		letter-spacing: normal;
+		font-weight: 300;
+	}
+}
+
