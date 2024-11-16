@@ -58,7 +58,7 @@ nodes and edges, commonly known as ‘Knowledge Graph’ or semantic net. By
 now, there are powerful technical solutions for Knowledge Graphs which can be 
 applied with benefit.
 
-<img src="./assets/images/V-Model-with-Standards.png" alt="V-Model-with-Standards" />.
+<img src="./assets/images/V-Model-with-Standards.png" alt="V-Model-with-Standards" />
 _Fig.2: The V-Model of product development with some of the data formats used. Source: prostep ivip SmartSE Project Group Recommendation PSI 11 SmartSE V3._
  
 As product information is created in a variety of authoring systems and 
@@ -79,7 +79,7 @@ terms of BPMN, collaborating participants. Boeing for example defines four
 levels of collaboration in their Supplier Enablement Framework (SEF) as shown 
 in Fig. 3.
 
-<img src="./assets/images/Boeing-Collaboration-Levels.png" alt="Boeing-Collaboration-Levels" />.
+<img src="./assets/images/Boeing-Collaboration-Levels.png" alt="Boeing-Collaboration-Levels" />
 _Fig.3: Boeing defines four levels of collaboration using a “Technical Data Package” (TDP). Source: Boeing Inc._
 
 The four levels of collaboration are characterized as follows:
@@ -129,7 +129,7 @@ Four subprojects are proposed:
 
 | Subproject | Description |
 | --- | --- | 
-| <a href="https://github.com/orgs/GfSE/projects/10">CASCaDE Metamodel</a> | Development of schema and constraints |
-| <a href="https://github.com/orgs/GfSE/projects/6">CASCaDE Layered Ontology</a> | Development of concepts |
-| <a href="https://github.com/orgs/GfSE/projects/5">CASCaDE Reference Implementation</a> | Reference implementation |
-| <a href="https://github.com/orgs/GfSE/projects/8">CASCaDE Verification and Validation</a> | Verificiation and validation of concepts and implementation |
+| <a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a> | Development of schema and constraints |
+| <a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a> | Development of concepts |
+| <a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a> | Reference implementation |
+| <a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a> | Verificiation and validation of concepts and implementation |
