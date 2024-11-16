@@ -84,7 +84,7 @@ _Fig.3: Boeing defines four levels of collaboration using a “Technical Data Pa
 
 The four levels of collaboration are characterized as follows:
 
-| Level 1 | Level 2 | Level 3A | Level 3B | Level 4 |
+|  | Level 1 | Level 2 | Level 3A | Level 3B | Level 4 |
 | --- | --- | --- | --- | --- | --- |
 | Title | Exchange | Interoperability | Collaboration based on TDP | Collaboration based on PLM | Digital Integration |
 | Direction | to supplier | to and from supplier | to and from supplier | to and from supplier | to and from supplier |
@@ -93,7 +93,7 @@ The four levels of collaboration are characterized as follows:
 
 Similar to the BOEING four levels of collaboration, prostep ivip defines 3 modes of collaboration as depicted in Fig. 4:
 
-<img src="./assets/images/Prostep-iViP-Collaboration-Modes.png" alt="Prostep-iViP-Collaboration-Modes" />.
+<img src="./assets/images/Prostep-iViP-Collaboration-Modes.png" alt="Prostep-iViP-Collaboration-Modes" />
 _Fig.4: Collaboration modes according to prostep ivip. Source: Prostep iViP e.V._
 
 CASCaDE shall address all those levels and modes. The information model 
@@ -118,3 +118,18 @@ missing. By applying formal methods to bridge technologies, interoperability
 will be greatly enhanced. The authors are well aware that the notion of 
 ‘package’ in CDP may not adequately describe the more advanced collaboration 
 modes as mentioned before.
+
+## Project
+
+The project organization and the tasks to complete the standard plus verification & validation 
+using a commonly developed reference implementation 
+are currently in discussion. 
+
+Four subprojects are proposed:
+
+| Subproject | Description |
+| --- | --- | 
+| <a href="https://github.com/orgs/GfSE/projects/10">CASCaDE Metamodel</a> | Development of schema and constraints |
+| <a href="https://github.com/orgs/GfSE/projects/6">CASCaDE Layered Ontology</a> | Development of concepts |
+| <a href="https://github.com/orgs/GfSE/projects/5">CASCaDE Reference Implementation</a> | Reference implementation |
+| <a href="https://github.com/orgs/GfSE/projects/8">CASCaDE Verification and Validation</a> | Verificiation and validation of concepts and implementation |
