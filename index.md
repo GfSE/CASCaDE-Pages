@@ -133,3 +133,7 @@ Four subprojects are proposed:
 | <a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a> | Development of concepts |
 | <a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a> | Reference implementation |
 | <a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a> | Verificiation and validation of concepts and implementation |
+
+## Results
+
+... to be added as decisions are made.
