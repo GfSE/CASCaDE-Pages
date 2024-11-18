@@ -15,8 +15,9 @@ The "Digital Data Package" (<a href="https://www.prostep.org/shop/detail?ai[acti
 as well as <a href="https://www.omg.org/spec/SysML/2.0/Beta2/About-SysML">SysML v2</a> 
 are technologies contributing to the standard submission.
 
-An initial financing is provided by <a href="https://www.prostep.org/">Prostep iViP e.V.</a>, 
-<a href="https://www.vda.de">VDA e.V.</a> and <a href="https://GfSE.org">GfSE e.V.</a>.
+Initial funding is provided by <a href="https://www.prostep.org/">Prostep iViP e.V.</a>, 
+<a href="https://www.vda.de">VDA e.V.</a> and <a href="https://GfSE.org">GfSE e.V.</a>. 
+Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./CASCaDE-Pages/#project) below.  
 
 ## Problem Statement
 
@@ -33,7 +34,7 @@ and lately so-called cyber-physical systems are covered by the standard
 ISO/IEC-15288. As it establishes a useful structure and widely accepted terms, 
 it has been adopted for the CASCaDE initiative.
 
-<img src="./assets/images/RFLP-BallBearing.png" alt="RFLP-BallBearing" />.
+<img src="./assets/images/RFLP-BallBearing.png" alt="RFLP-BallBearing" />
 _Fig.1: Example illustrating linked cross-domain product information. Source: Schaeffler AG._
 
 The example in Fig. 1 illustrates artifacts related to a ball bearing in four 
