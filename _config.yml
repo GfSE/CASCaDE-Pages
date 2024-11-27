@@ -3,6 +3,7 @@ description: Homepage with goals, organization and results of the CASCaDE Projec
 theme: just-the-docs
 
 url: https://CASCaDE-Pages.github.io
+heading_anchors: true
 
 aux_links:
   Repo: https://github.com/GfSE/CASCaDE-Pages
