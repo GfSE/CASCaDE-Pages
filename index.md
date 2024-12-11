@@ -20,7 +20,7 @@ are technologies contributing to the standard submission.
 
 Initial funding is provided by <a href="https://www.prostep.org/">Prostep iViP e.V.</a>, 
 <a href="https://www.vda.de">VDA e.V.</a> and <a href="https://GfSE.org">GfSE e.V.</a>. 
-Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](#project) below.  
+Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./project.html) below.  
 
 ## Objective
 
@@ -49,7 +49,7 @@ There has been a similar approach in civil engineering for years.
 The Building Information Modeling (BIM) is a standardized information model for all partici-pants in the value chain and has contributed significantly 
 to improved collabo-ration with substantial time and cost savings. The CASCaDE initiative shall achieve no more and no less within the domain of mechatronics and software.
 
-The RFP relies on the observation, that while there will always be specialized tools for different purposes, there is an interest in 
+The initiative relies on the observation, that while there will always be specialized tools for different purposes, there is an interest in 
 combining partial results from different teams, navigating, searching and reviewing partial results in a common context and sharing model information between organizations and tools.
 
-The RFP solicits the provision of a widely accepted standard for collaboration involving various organizations (in the supply chain) and engineering disciplines.
+The project prepares a widely accepted standard for collaboration involving various organizations (in the supply chain) and engineering disciplines.
