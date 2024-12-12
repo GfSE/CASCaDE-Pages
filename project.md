@@ -71,6 +71,7 @@ Why should software-vendors develop the standard core-features of CASCaDE indepe
 <li>Independent certification of software products</li>
 </ul>
 </td>
+<td>
 <ul>
 <li>„Basic Features“ (Kano) don‘t allow differentiation and are commonly developed; lots of cost saved</li>
 <li>Discussion and support by voluntary contributors</li>
@@ -79,7 +80,6 @@ Why should software-vendors develop the standard core-features of CASCaDE indepe
 <li>Proven marketing approach for innovative software products</li>
 <li>Many successful examples not only in the US, but also in Germany and Europe</li>
 </ul>
-<td>
 </td>
 </tr>
 </tbody>
