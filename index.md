@@ -11,7 +11,7 @@ nav_order: 0
 
 Facilitate collaboration in the product lifecycle from conception to retirement. 
 Standardize such collaboration in terms of data format and ontology. 
-Goal is to submit a standard candidate at OMG.
+Submit a standard candidate at OMG.
 
 The "Digital Data Package" (<a href="https://www.prostep.org/shop/detail?ai[action]=detail&ai[controller]=Catalog&ai[d_name]=ddp_rec">DDP</a>) from Prostep iViP e.V.,
 "Specification Integration Facility" (<a href="https://specif.de">SpecIF</a>) from GfSE e.V. 

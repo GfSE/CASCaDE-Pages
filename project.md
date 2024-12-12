@@ -27,7 +27,7 @@ It‘s about collaboration, so let‘s collaborate.
 
 <img src="./assets/images/CASCaDE Project Organization.png" alt="CASCaDE Project Organization" />
 
-Proposal for agile project management of the teams:
+Proposal for agile project management:
 
 | Subproject | Description | Responsibility |
 | --- | --- | --- | 
@@ -36,7 +36,7 @@ Proposal for agile project management of the teams:
 | <a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a> | Reference implementation | Validation Team |
 | <a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a> | Verificiation and validation of the standard using the reference implementation | V&V Team |
 
-## Open Source ?
+## Why Open Source ?
 
 ### Join Forces for Quality and Speed
 
@@ -78,7 +78,7 @@ Why should software-vendors develop the standard core-features of CASCaDE indepe
 <li>Market-proven base for „Enterprise Editions“ with professional features</li>
 <li>Solution gets known without marketing effort</li>
 <li>Proven marketing approach for innovative software products</li>
-<li>Many successful examples not only in the US, but also in Germany and Europe</li>
+<li>Many successful examples not only in the US, but also in Europe</li>
 </ul>
 </td>
 </tr>
