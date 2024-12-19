@@ -29,12 +29,19 @@ It‘s about collaboration, so let‘s collaborate.
 
 Proposal for agile project management:
 
-| Subproject | Description | Responsibility |
-| --- | --- | --- | 
-| <a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a> | Development of schema and constraints as part of the standard | Submission Team |
-| <a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a> | Development of concepts as part of the standard | Submission Team |
-| <a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a> | Reference implementation | Validation Team |
-| <a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a> | Verificiation and validation of the standard using the reference implementation | V&V Team |
+<table>
+<thead>
+<tr>
+<th>Subproject</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<th><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></th><th>Development of schema and constraints as part of the standard</th><th style="background-color:rgba(0,110,199,0.76);">Submission Team</th>
+<th><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a></th><th>Development of concepts as part of the standard</th><th>Submission Team</th>
+<th><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></th><th>Reference implementation</th><th>Development Team</th>
+<th><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></th><th>Verificiation and validation of the standard using the reference implementation</th><th>V&V Team</th>
+</tbody>
+</table>
 
 ## Why Open Source ?
 
