@@ -3,7 +3,6 @@ title: Project
 layout: default
 parent: "Home"
 nav_order: 20
-permalink: /project/
 ---
 
 # Project

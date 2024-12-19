@@ -3,7 +3,6 @@ title: Results
 layout: default
 parent: "Home"
 nav_order: 90
-permalink: /results/
 ---
 
 # Results
