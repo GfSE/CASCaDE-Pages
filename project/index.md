@@ -2,7 +2,8 @@
 title: Project
 layout: default
 parent: "Home"
-nav_order: 14
+nav_order: 0
+permalink: /project/
 ---
 
 # Project
@@ -16,7 +17,7 @@ So the following setup is preliminary.
 Successful Standardization needs more than a Standard: A Reference Implementation plus Verification & Validation. 
 Certification is needed later on once the standard is established and software products are developed and released.
 
-<img src="./assets/images/CASCaDE Focus Areas.png" alt="CASCaDE Focus Areas" />
+<img src="../assets/images/CASCaDE Focus Areas.png" alt="CASCaDE Focus Areas" />
 
 ## Teams
 
@@ -25,7 +26,7 @@ and V&V is done in parallel to preparing the standard.
 
 It‘s about collaboration, so let‘s collaborate.
 
-<img src="./assets/images/CASCaDE Project Organization.png" alt="CASCaDE Project Organization" />
+<img src="../assets/images/CASCaDE Project Organization.png" alt="CASCaDE Project Organization" />
 
 Proposal for agile project management:
 
