@@ -2,7 +2,7 @@
 title: Project
 layout: default
 parent: "Home"
-nav_order: 0
+nav_order: 20
 permalink: /project/
 ---
 
