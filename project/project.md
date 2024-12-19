@@ -43,10 +43,10 @@ Proposal for agile project management:
 Publicly available reference implementation and test cases support standard quality and speed of adoption.
 Examples of successful collaborations are:
 - The German Car Industry has built an ecosystem with a shared supply chain from the beginning. 
-The sparking plug has been provided by Robert Bosch; the OEMs did not build it themselves.
+The sparking plug has been produced by Robert Bosch; the OEMs did not build it themselves.
 - INSTA Elektro GmbH has been founded by competing GIRA, Jung and Berker to share the cost of electronics development (dimmers, timers etc.). 
 - All web-browsers (Firefox, Edge, Chrome, Safari, Opera and many others) use one of the open-source engines Gecko, WebKit or Blink. 
-Opera and even Microsoft have abandoned their own browser engine in favor of an open-source product.
+Opera and even Microsoft have abandoned their own browser engines in favor of an open-source product.
 
 Why should software-vendors develop the standard core-features of CASCaDE independently by themselves? And why debug towards interoperability later on? 
 
