@@ -36,10 +36,18 @@ Proposal for agile project management:
 </tr>
 </thead>
 <tbody>
-<th><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></th><th>Development of schema and constraints as part of the standard</th><th style="background-color:rgba(0,110,199,0.76);">Submission Team</th>
-<th><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a></th><th>Development of concepts as part of the standard</th><th>Submission Team</th>
-<th><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></th><th>Reference implementation</th><th>Development Team</th>
-<th><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></th><th>Verificiation and validation of the standard using the reference implementation</th><th>V&V Team</th>
+<tr>
+<th><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></th><th>Development of schema and constraints as part of the standard</th><th style="background-color:rgba(0,110,199,0.24);">Submission Team</th>
+<tr>
+</tr>
+<th><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a></th><th>Development of concepts as part of the standard</th><th style="background-color:rgba(0,110,199,0.24);">Submission Team</th>
+<tr>
+</tr>
+<th><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></th><th>Reference implementation</th><th style="background-color:rgba(205,0,0,0.24);">Development Team</th>
+<tr>
+</tr>
+<th><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></th><th>Verificiation and validation of the standard using the reference implementation</th><th style="background-color:rgba(255,231,29,0.24);">V&V Team</th>
+</tr>
 </tbody>
 </table>
 
