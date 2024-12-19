@@ -37,16 +37,16 @@ Proposal for agile project management:
 </thead>
 <tbody>
 <tr>
-<th><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></th><th>Development of schema and constraints as part of the standard</th><th style="background-color:rgba(0,110,199,0.24);">Submission Team</th>
+<td><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></td><td>Development of schema and constraints as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 <tr>
 </tr>
-<th><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a></th><th>Development of concepts as part of the standard</th><th style="background-color:rgba(0,110,199,0.24);">Submission Team</th>
+<td><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Layered Ontology</a></td><td>Development of concepts as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 <tr>
 </tr>
-<th><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></th><th>Reference implementation</th><th style="background-color:rgba(205,0,0,0.24);">Development Team</th>
+<td><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></td><td>Reference implementation</td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 <tr>
 </tr>
-<th><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></th><th>Verificiation and validation of the standard using the reference implementation</th><th style="background-color:rgba(255,231,29,0.24);">V&V Team</th>
+<td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></td><td>Verificiation and validation of the standard using the reference implementation</td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
 </tr>
 </tbody>
 </table>
