@@ -43,10 +43,10 @@ Proposal for agile project management:
 <td><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Ontology</a></td><td>Development of terms/concepts ("semantics") as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
-<td></td><td>Development of operations as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
+<td>CASCaDE Operations</td><td>Development of operations as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
-<td></td><td>Development of transformations as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
+<td>CASCaDE Transformations</td><td>Development of transformations as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></td><td>Reference implementation</td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
