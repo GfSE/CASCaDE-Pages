@@ -15,8 +15,10 @@ This is a major milestone on the way to standardize the collaboration in the
 product lifecycle from end to end.
 A controlled vocabulary and a common context for so far partial product data are in focus.
 
-Major ideas behind the RfP are explained <a href="../files/documents/2024-12%20CASCaDE-Introduction%20OMG.pdf" target="_blank" >here</a> 
-and the RfP itself ist published on the <a href="https://www.omg.org/cgi-bin/doc?mantis/24-12-03.pdf" target="_blank" >OMG website</a>.
+Major ideas behind the RFP are explained <a href="../files/documents/2024-12%20CASCaDE-Introduction%20OMG.pdf" target="_blank" >here</a> 
+and the RFP itself ist published on the <a href="https://www.omg.org/cgi-bin/doc?mantis/24-12-03.pdf" target="_blank" >OMG website</a>.
+
+Members of prostep ivip and GfSE have prepared the RFP document in the past months.
 
 As a next step, a submission team for a standard will be formed. The associations GfSE, 
 prostep ivip and VDA have agreed to sponsor the effort. The team is looking for further funding to 
