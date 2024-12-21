@@ -62,6 +62,9 @@ Proposal for agile project management:
 The teams responsible for reference implementation resp. verification and validation are looking for funding. 
 The work will begin, if a minimum capacity of 4 full-time-equivalent (FTE) team members are committed.
 
+Organizations contributing to the effort will form a stakeholder committee defining the priority of backlog items 
+and reviewing the results per iteration ("sprint").
+
 <table>
 <thead>
 <tr>
@@ -71,12 +74,15 @@ The work will begin, if a minimum capacity of 4 full-time-equivalent (FTE) team 
 <tbody>
 <tr>
 <td>enso managers GmbH, Berlin</td><td>Software Architect, Product Owner</td><td>0.4 FTE</td><td>0.4 FTE</td>
+</tr>
+<tr>
 <td></td><td></td><td></td><td></td>
 </tr>
 </tbody>
 </table>
 
 <div style="float: left; max-width:150px"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></div>
+<div style="clear:both"></div>
 
 ## Why Open Source ?
 
