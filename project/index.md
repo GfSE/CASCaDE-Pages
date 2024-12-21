@@ -57,6 +57,27 @@ Proposal for agile project management:
 </tbody>
 </table>
 
+## Contributions
+
+The teams responsible for reference implementation resp. verification and validation are looking for funding. 
+The work will begin, if a minimum capacity of 4 full-time-equivalent (FTE) team members are committed.
+
+<table>
+<thead>
+<tr>
+<th>Organization</th><th>Potential Roles</th><th>2025</th><th>2026</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>enso managers GmbH, Berlin</td><td>Software Architect, Product Owner</td><td>0.4 FTE</td><td>0.4 FTE</td>
+<td></td><td></td><td></td><td></td>
+</tr>
+</tbody>
+</table>
+
+<div style="float: left; max-width:150px"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></div>
+
 ## Why Open Source ?
 
 ### Join Forces for Quality and Speed
