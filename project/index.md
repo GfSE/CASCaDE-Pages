@@ -73,15 +73,15 @@ and reviewing the results per iteration ("sprint").
 </thead>
 <tbody>
 <tr>
-<td>enso managers GmbH, Berlin</td><td>Software Architect, Product Owner</td><td>0.4 FTE</td><td>0.4 FTE</td>
+<td><a href="https://enso-managers.de" target="_blank">enso managers GmbH, Berlin</a></td><td>Software Architect, Product Owner</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">0.4 FTE</td>
 </tr>
 <tr>
-<td></td><td></td><td></td><td></td>
+<td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 
-<div style="float: left; max-width:150px"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></div>
+<div style="float: left; max-width:150px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
 <div style="clear:both"></div>
 
 ## Why Open Source ?
