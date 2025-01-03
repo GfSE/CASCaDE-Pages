@@ -57,7 +57,9 @@ Proposal for agile project management:
 </tbody>
 </table>
 
-## Milestones (First Draft)
+## Milestones
+
+_First Draft_
 
 The milestones are matched with the schedule of the submission team to effectively verify and validate the upcoming standard in parallel to the submission.
 This is a proposal which shall be reviewed and reworked with the contributing project partners.
@@ -73,13 +75,13 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <td>2025-03</td><td><ul><li>Schema for Property Graph defined</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
-<td>2025-06</td><td><ul><li>Schema for Ontology defined</li><li>Open API defined</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
+<td>2025-06</td><td><ul><li>Schema for Ontology defined</li><li>First Draft Ontology defined</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td>2025-06</td><td><ul><li>Schema for Property Graph implemented</li><li>Simple Property Graph using GQL created</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
-<td>2025-09</td><td><ul><li>First Draft Ontology defined</li><li>Initial Standard Document submitted</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
+<td>2025-09</td><td><ul><li>Open API defined</li><li>Initial Standard Document submitted</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td>2025-09</td><td><ul><li>Two transformations to Property Graph implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
