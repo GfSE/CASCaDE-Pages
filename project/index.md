@@ -108,7 +108,7 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <td>2026-06</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
-<td>2026-06</td><td><ul><li></li><li>Open API complemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
+<td>2026-06</td><td><ul><li></li><li>One more transformation and model integration implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
 <td>2026-06</td><td><ul><li>Final Ontology validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
@@ -117,7 +117,7 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <td>2026-09</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
-<td>2026-09</td><td><ul><li>One more transformation and model integration implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
+<td>2026-09</td><td><ul><li>Open API complemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
 <td>2026-09</td><td><ul><li>Three transformations and model integration validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
