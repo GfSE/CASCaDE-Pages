@@ -22,6 +22,11 @@ Initial funding is provided by <a href="https://www.prostep.org/">Prostep iViP e
 <a href="https://www.vda.de">VDA e.V.</a> and <a href="https://GfSE.org">GfSE e.V.</a>. 
 Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./project/) below.  
 
+<div style="float: left; max-width:150px"><a href="https://gfse.org/" target="_blank"><img src="./assets/logos/GfSE-Incose-Logo.web.png" /></a></div>
+<div style="float: left; max-width:150px"><a href="https://www.prostep.org/" target="_blank"><img src="./assets/logos/logo-prostep-ivip.png" /></a></div>
+<div style="float: left; max-width:150px"><a href="https://www.vda.de/" target="_blank"><img src="./assets/logos/logo-vda.png" /></a></div>
+<div style="clear:both"></div>
+
 ## Objective
 
 Collaboration is the core of digital engineering (DE), manufacturing and supply chain in the product life cycle. 
