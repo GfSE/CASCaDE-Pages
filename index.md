@@ -20,7 +20,7 @@ are technologies contributing to the standard submission.
 
 Initial funding is provided by <a href="https://www.prostep.org/">Prostep iViP e.V.</a>, 
 <a href="https://www.vda.de">VDA e.V.</a> and <a href="https://GfSE.org">GfSE e.V.</a>. 
-Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./project.html) below.  
+Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./project/) below.  
 
 ## Objective
 
