@@ -9,7 +9,7 @@ nav_order: 0
 
 ## In a Nutshell
 
-Facilitate collaboration in the product lifecycle from conception to retirement. 
+The objective of CASCaDE (Collaborative Artifact, Specification, Context and Data Exchange) is to facilitate collaboration in the product lifecycle from conception to retirement. 
 Standardize such collaboration in terms of data format and ontology. 
 Submit a standard candidate at OMG.
 
