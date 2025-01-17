@@ -32,17 +32,17 @@ Additional support by personal contribution or budget is needed to verify and va
 Collaboration is the core of digital engineering (DE), manufacturing and supply chain in the product life cycle. 
 It takes place internally and externally within the company and their suppliers. 
 Today, many different tools and data formats are involved in interdisciplinary DE. 
-While these tools shall remain in use, colla-boration requires a holistic approach to share information that is inter¬connected and semantically integrated on an artifact-level. 
-So, the transition from document-based to artifact -based collaboration is fostered.
+While these tools shall remain in use, collaboration requires a holistic approach to share information that is interconnected and semantically integrated on an artifact-level. 
+So, the transition from document-based to artifact-based collaboration is fostered.
 
-In the past standardization efforts have focused on the exchange of information with¬in the realm of a certain discipline. 
+In the past standardization efforts have focused on the exchange of information within the realm of a certain discipline. 
 The data formats support dedicated use cases in the product development process, but it is difficult to analyze them in a common context: 
 All (relevant) aspects of a product in its lifecycle shall be consistently and completely described. 
 Same entities in different realms shall be identified and considered with all their dependencies. 
 
 More concretely, the following use-cases are typical examples of collaboration between different organizations along the supply-chain covering Mechanics, Electronic and Software (see 6.6.1 Non-mandatory Functional Requirements for more detail):
 - Collaborative Management of Product Requirements
-- Collaborative Development of Architecture Design
+- Collaborative Design of Product Architecture
 - Co-Simulation & Early Requirements V&V
 - Collaborative Development of Physical Design (3DMBD), Electronic Design and/or Software
 - Collaborative Manufacturing Engineering
@@ -51,8 +51,8 @@ More concretely, the following use-cases are typical examples of collaboration b
 - Model-based Acquisition (OMG MBAcq).
 
 There has been a similar approach in civil engineering for years. 
-The Building Information Modeling (BIM) is a standardized information model for all partici-pants in the value chain and has contributed significantly 
-to improved collabo-ration with substantial time and cost savings. The CASCaDE initiative shall achieve no more and no less within the domain of mechatronics and software.
+The Building Information Modeling (BIM) is a standardized information model for all participants in the value chain and has contributed significantly 
+to improved collaboration with substantial time and cost savings. The CASCaDE initiative shall achieve no more and no less within the domain of mechatronics and software.
 
 The initiative relies on the observation, that while there will always be specialized tools for different purposes, there is an interest in 
 combining partial results from different teams, navigating, searching and reviewing partial results in a common context and sharing model information between organizations and tools.

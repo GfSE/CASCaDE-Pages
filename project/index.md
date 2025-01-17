@@ -49,7 +49,13 @@ Proposal for agile project management:
 <td>CASCaDE Transformations</td><td>Development of transformations as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team (WP4)</td>
 </tr>
 <tr>
+<td><a href="https://github.com/orgs/GfSE/projects/12" target="_blank">CASCaDE Specification</a></td><td>Development of operations as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team (WP6)</td>
+</tr>
+<tr>
 <td><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></td><td>Reference implementation</td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
+</tr>
+<tr>
+<td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Requirements Verification and Validation</a></td><td>Verificiation and validation of the requirements as lsited in the RFP</td><td style="background-color:rgba(255,231,29,0.24);">V&V Team<br/>(WP5)</td>
 </tr>
 <tr>
 <td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></td><td>Verificiation and validation of the standard using the reference implementation</td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
