@@ -96,13 +96,13 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <td>2025-09</td><td><ul><li>Property Graph created (e.g. per GQL)</li><li>Improved Frontend for Property Graph</li><li>Two transformations to Property Graph implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
-<td>2025-12</td><td><ul><li>Second Draft Ontology defined</li><li><strong>Revised Standard document submitted to OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
-</tr>
-<tr>
 <td>2025-12</td><td><ul><li>Open API implemented (MVP)</li><li>Improved Frontend for Property Graph</li><li>Two Exports from Property Graph (e.g. native and HTML)</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
 <td>2025-12</td><td><ul><li>Requirements V&V</li><li>Two transformations validated (including preparation of test-data)</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
+</tr>
+<tr>
+<td>2025-12</td><td><ul><li>Second Draft Ontology defined</li><li><strong>Revised Standard document submitted to OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td>2026-03</td><td><ul><li>Final ontology defined</li><li><strong>Final Standard document submitted to OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
@@ -114,16 +114,13 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <td>2026-03</td><td><ul><li>Draft ontology validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
 </tr>
 <tr>
-<td>2026-06</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
-</tr>
-<tr>
 <td>2026-06</td><td><ul><li></li><li>One more transformation and model integration implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
 <td>2026-06</td><td><ul><li>Final ontology validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
 </tr>
 <tr>
-<td>2026-09</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
+<td>2026-06</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td>2026-09</td><td><ul><li>Open API complemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
@@ -132,13 +129,16 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <td>2026-09</td><td><ul><li>Three transformations and model integration validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
 </tr>
 <tr>
-<td>2026-12</td><td><ul><li>Findings of V&V and FTF addressed</li><li><strong>Standard adopted by OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
+<td>2026-09</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td>2026-12</td><td><ul><li>Reference implementation refactored and released</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
 <tr>
 <td>2026-12</td><td><ul><li>Standard and reference implementation validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
+</tr>
+<tr>
+<td>2026-12</td><td><ul><li>Findings of V&V and FTF addressed</li><li><strong>Standard adopted by OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 </tbody>
 </table>
