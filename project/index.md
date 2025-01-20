@@ -18,12 +18,13 @@ Certification is needed later on once the standard is established and software p
 
 <img src="../assets/images/CASCaDE Focus Areas.png" alt="CASCaDE Focus Areas" />
 
-## Teams
+## Organization
 
-Three teams are responsible for the focus areas. It is important that a reference implementation is made available 
-and V&V is done in parallel to preparing the standard. 
+The normative specification will be prepared by the Submission Team. 
+To assure usefulness and quality of the standard, it is important that verification and validation (V&V) is done in parallel.
+A publicly available reference implementation is best suited for V&V. 
 
-It‘s about collaboration, so let‘s collaborate.
+It's about collaboration, so let's collaborate.
 
 <img src="../assets/images/CASCaDE Project Organization.png" alt="CASCaDE Project Organization" />
 
