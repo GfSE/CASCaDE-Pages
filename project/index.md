@@ -82,12 +82,12 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2025-03</td><td><ul><li>Metamodel ("PIM") as well as schema with constraints ("PSM") for Property Graph defined</li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Metamodel ("PIM") as well as schema with constraints ("PSM") for Property Graph defined</li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -97,15 +97,15 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2025-06</td><td><ul><li>Schema for Ontology defined</li><li>First draft ontology defined (reusing existing results)</li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Schema for Ontology defined</li><li>First draft ontology defined (reusing existing results)</li></ul></td><td class="blue">Submission Team</td>
 </tr>
 <tr>
-<td>2025-06</td><td><ul><li>Schema for Property Graph implemented</li><li>Simple Property Graph created (e.g. per GQL)</li><li>Simple Frontend for Property Graph (including preparation of framework)</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Schema for Property Graph implemented</li><li>Simple Property Graph created (e.g. per GQL)</li><li>Simple Frontend for Property Graph (including preparation of framework)</li></ul></td><td class="rose">Development Team</td>
 </tr>
 </tbody>
 </table>
@@ -115,18 +115,18 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2025-09</td><td><ul><li>Property Graph created (e.g. per GQL)</li><li>Improved Frontend for Property Graph</li><li>Two transformations to Property Graph implemented</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Property Graph created (e.g. per GQL)</li><li>Improved Frontend for Property Graph</li><li>Two transformations to Property Graph implemented</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td>2025-09</td><td><ul><li>Requirements V&V</li></ul></td><td class="yellow">V&V Team</td>
+<td><ul><li>Requirements V&V</li></ul></td><td class="yellow">V&V Team</td>
 </tr>
 <tr>
-<td>2025-09</td><td><ul><li>Open API defined</li><li><strong>Initial Standard document submitted to OMG</strong></li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Open API defined</li><li><strong>Initial Standard document submitted to OMG</strong></li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -136,18 +136,18 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2025-12</td><td><ul><li>Open API implemented (MVP)</li><li>Improved Frontend for Property Graph</li><li>Two Exports from Property Graph (e.g. native and HTML)</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Open API implemented (MVP)</li><li>Improved Frontend for Property Graph</li><li>Two Exports from Property Graph (e.g. native and HTML)</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td>2025-12</td><td><ul><li>Requirements V&V</li><li>Two transformations validated (including preparation of test-data)</li></ul></td><td class="yellow">V&V Team</td>
+<td><ul><li>Requirements V&V</li><li>Two transformations validated (including preparation of test-data)</li></ul></td><td class="yellow">V&V Team</td>
 </tr>
 <tr>
-<td>2025-12</td><td><ul><li>Second Draft Ontology defined</li><li><strong>Revised Standard document submitted to OMG</strong></li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Second Draft Ontology defined</li><li><strong>Revised Standard document submitted to OMG</strong></li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -157,18 +157,18 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2026-03</td><td><ul><li>One more transformation and model integration implemented (MVP)</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>One more transformation and model integration implemented (MVP)</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td>2026-03</td><td><ul><li>Draft ontology validated</li></ul></td><td class="yellow">V&V Team</td>
+<td><ul><li>Draft ontology validated</li></ul></td><td class="yellow">V&V Team</td>
 </tr>
 <tr>
-<td>2026-03</td><td><ul><li>Final ontology defined</li><li><strong>Final Standard document submitted to OMG</strong></li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Final ontology defined</li><li><strong>Final Standard document submitted to OMG</strong></li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -178,18 +178,18 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2026-06</td><td><ul><li></li><li>One more transformation and model integration implemented</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li></li><li>One more transformation and model integration implemented</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td>2026-06</td><td><ul><li>Final ontology validated</li></ul></td><td class="yellow">V&V Team</td>
+<td><ul><li>Final ontology validated</li></ul></td><td class="yellow">V&V Team</td>
 </tr>
 <tr>
-<td>2026-06</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -199,18 +199,18 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2026-09</td><td><ul><li>Open API complemented</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Open API complemented</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td>2026-09</td><td><ul><li>Three transformations and model integration validated</li></ul></td><td class="yellow">V&V Team</td>
+<td><ul><li>Three transformations and model integration validated</li></ul></td><td class="yellow">V&V Team</td>
 </tr>
 <tr>
-<td>2026-09</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -220,18 +220,18 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Milestone</th><th>Description</th><th>Responsibility</th>
+<th>Description</th><th>Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2026-12</td><td><ul><li>Reference implementation refactored and released</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Reference implementation refactored and released</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td>2026-12</td><td><ul><li>Standard and reference implementation validated</li></ul></td><td class="yellow">V&V Team</td>
+<td><ul><li>Standard and reference implementation validated</li></ul></td><td class="yellow">V&V Team</td>
 </tr>
 <tr>
-<td>2026-12</td><td><ul><li>Findings of V&V and FTF addressed</li><li><strong>Standard adopted by OMG</strong></li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Findings of V&V and FTF addressed</li><li><strong>Standard adopted by OMG</strong></li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
