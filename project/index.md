@@ -20,6 +20,10 @@ Certification is needed later on once the standard is established and software p
 
 ## Organization
 
+<style>
+	.blue {background-color:rgba(0,110,199,0.24);}
+</style>
+
 The normative specification will be prepared by the Submission Team. 
 To assure usefulness and quality of the standard, it is important that verification and validation (V&V) is done in parallel.
 A publicly available reference implementation is best suited for V&V. 
@@ -38,7 +42,7 @@ Proposal for agile project management:
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></td><td>Development of schema and constraints ("syntax") as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team (WP1)</td>
+<td><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></td><td>Development of schema and constraints ("syntax") as part of the standard</td><td class="blue">Submission Team (WP1)</td>
 </tr>
 <tr>
 <td><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Ontology</a></td><td>Development of terms/concepts ("semantics") as part of the standard</td><td style="background-color:rgba(0,110,199,0.24);">Submission Team (WP2)</td>
@@ -66,10 +70,12 @@ Proposal for agile project management:
 
 ## Milestones
 
-_Second Draft_
+_Third Draft (2025-01-21)_
 
 The milestones are matched with the schedule of the submission team to effectively verify and validate the upcoming standard in parallel to the submission.
-This is a proposal which shall be reviewed and reworked with the contributing project partners.
+This reflects the current planning which shall be reviewed and reworked with the contributing project partners.
+
+### Milestone 2025-03
 
 <table>
 <thead>
@@ -81,12 +87,36 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <tr>
 <td>2025-03</td><td><ul><li>Metamodel ("PIM") as well as schema with constraints ("PSM") for Property Graph defined</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2025-06
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2025-06</td><td><ul><li>Schema for ontology defined</li><li>First draft ontology defined (reusing existing results)</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
 <tr>
 <td>2025-06</td><td><ul><li>Schema for Property Graph implemented</li><li>Simple Property Graph created (e.g. per GQL)</li><li>Simple Frontend for Property Graph (including preparation of framework)</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2025-09
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2025-09</td><td><ul><li>Requirements V&V</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
 </tr>
@@ -96,6 +126,18 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <tr>
 <td>2025-09</td><td><ul><li>Property Graph created (e.g. per GQL)</li><li>Improved Frontend for Property Graph</li><li>Two transformations to Property Graph implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2025-12
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2025-12</td><td><ul><li>Open API implemented (MVP)</li><li>Improved Frontend for Property Graph</li><li>Two Exports from Property Graph (e.g. native and HTML)</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
@@ -105,6 +147,18 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <tr>
 <td>2025-12</td><td><ul><li>Second Draft Ontology defined</li><li><strong>Revised Standard document submitted to OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2026-03
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2026-03</td><td><ul><li>Final ontology defined</li><li><strong>Final Standard document submitted to OMG</strong></li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
@@ -114,6 +168,18 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <tr>
 <td>2026-03</td><td><ul><li>Draft ontology validated</li></ul></td><td style="background-color:rgba(255,231,29,0.24);">V&V Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2026-06
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2026-06</td><td><ul><li></li><li>One more transformation and model integration implemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
@@ -123,6 +189,18 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <tr>
 <td>2026-06</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2026-09
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2026-09</td><td><ul><li>Open API complemented</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
@@ -132,6 +210,18 @@ This is a proposal which shall be reviewed and reworked with the contributing pr
 <tr>
 <td>2026-09</td><td><ul><li>Findings of V&V and FTF addressed</li></ul></td><td style="background-color:rgba(0,110,199,0.24);">Submission Team</td>
 </tr>
+</tbody>
+</table>
+
+### Milestone 2026-12
+
+<table>
+<thead>
+<tr>
+<th>Milestone</th><th>Description</th><th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>2026-12</td><td><ul><li>Reference implementation refactored and released</li></ul></td><td style="background-color:rgba(205,0,0,0.24);">Development Team</td>
 </tr>
