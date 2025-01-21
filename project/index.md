@@ -24,6 +24,7 @@ Certification is needed later on once the standard is established and software p
 	.blue {background-color:rgb(194,220,242);}
 	.rose {background-color:rgb(243,194,194);}
 	.yellow {background-color:rgb(255,249,201);}
+	.size-20 {width:20%}
 </style>
 
 The normative specification will be prepared by the Submission Team. 
@@ -82,12 +83,12 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><ul><li>Metamodel ("PIM") as well as schema with constraints ("PSM") for Property Graph defined</li></ul></td><td class="blue">Submission Team</td>
+<td><ul><li>Metamodel ("PIM") as well as schema with constraints ("PSM") for Knowledge Graph defined</li></ul></td><td class="blue">Submission Team</td>
 </tr>
 </tbody>
 </table>
@@ -97,7 +98,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -105,7 +106,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <td><ul><li>Schema for Ontology defined</li><li>First draft ontology defined (reusing existing results)</li></ul></td><td class="blue">Submission Team</td>
 </tr>
 <tr>
-<td><ul><li>Schema for Property Graph implemented</li><li>Simple Property Graph created (e.g. per GQL)</li><li>Simple Frontend for Property Graph (including preparation of framework)</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Schema for Knowledge Graph implemented</li><li>Simple Knowledge Graph created</li><li>Simple Frontend for Knowledge Graph (including preparation of framework)</li></ul></td><td class="rose">Development Team</td>
 </tr>
 </tbody>
 </table>
@@ -115,12 +116,12 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><ul><li>Property Graph created (e.g. per GQL)</li><li>Improved Frontend for Property Graph</li><li>Two transformations to Property Graph implemented</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Knowledge Graph created</li><li>Improved Frontend for Knowledge Graph</li><li>Two transformations to Knowledge Graph implemented</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
 <td><ul><li>Requirements V&V</li></ul></td><td class="yellow">V&V Team</td>
@@ -136,12 +137,12 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><ul><li>Open API implemented (MVP)</li><li>Improved Frontend for Property Graph</li><li>Two Exports from Property Graph (e.g. native and HTML)</li></ul></td><td class="rose">Development Team</td>
+<td><ul><li>Open API implemented (MVP)</li><li>Improved Frontend for Knowledge Graph</li><li>Two Exports from Knowledge Graph (e.g. native and HTML)</li></ul></td><td class="rose">Development Team</td>
 </tr>
 <tr>
 <td><ul><li>Requirements V&V</li><li>Two transformations validated (including preparation of test-data)</li></ul></td><td class="yellow">V&V Team</td>
@@ -157,7 +158,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -178,7 +179,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -199,7 +200,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -220,7 +221,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th>Responsibility</th>
+<th>Description</th><th class="size-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
