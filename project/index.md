@@ -21,6 +21,7 @@ Certification is needed later on once the standard is established and software p
 ## Organization
 
 <style>
+	.table-wrapper ul {margin: 0;}
 	.blue {background-color:rgb(194,220,242);}
 	.rose {background-color:rgb(243,194,194);}
 	.yellow {background-color:rgb(255,249,201);}
