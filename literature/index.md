@@ -6,19 +6,20 @@ nav_order: 970
 
 # Literature
 
-1. ISO: <a href="https://www.iso.org/standard/71954.html" target="_blank"> ISO/IEC 21838-1:2021 Information Technology — Top-level ontologies (TLO)</a>
-1. <a href="https://basic-formal-ontology.org/bfo-2020.html" target="_blank">Basic Formal Ontology (BFO) 2020</a>
-1. <a href="https://oagi.org/pages/industrial-ontologies" target="_blank">Industrial Ontologies Foundry</a>
+1. ISO: <a href="https://www.iso.org/standard/81702.html" target="_blank">ISO/IEC/IEEE 15288:2023 Systems and software engineering — System life cycle processes</a>
+1. ISO: <a href="https://www.iso.org/standard/71954.html" target="_blank">ISO/IEC 21838-1:2021 Information Technology — Top-level ontologies (TLO)</a>
 1. Dublin Core Metadata Inituative (DCMI): <a href="https://www.dublincore.org/specifications/dublin-core/" target="_blank">Dublin Core<sup>TM</sup></a>
 1. Dublin Core Metadata Inituative (DCMI): <a href="https://www.dublincore.org/specifications/dublin-core/dc-rdf/" target="_blank">Expressing Dublin Core<sup>TM</sup> metadata using the Resource Description Framework (RDF)</a>
 1. Dublin Core Metadata Inituative (DCMI): <a href="https://www.dublincore.org/specifications/dublin-core/dc-rdf-notes/" target="_blank">Notes on DCMI specifications for expressing Dublin Core<sup>TM</sup> metadata in RDF</a>
-1. <a href="https://www.omg.org/spec/COMMONS" target="_blank">Commons Ontology Library</a>
-1. <a href="https://www.omg.org/spec/MVF" target="_blank">Multiple Vocabulary Facility (MVF)</a>
+1. OMG: <a href="https://www.omg.org/spec/COMMONS" target="_blank">Commons Ontology Library</a>
+1. OMG: <a href="https://www.omg.org/spec/MVF" target="_blank">Multiple Vocabulary Facility (MVF)</a>
 1. OMG: <a href="https://www.omg.org/spec/UML/2.5.1/PDF" target="_blank">Unified Modeling Language® (OMG UML®) Version 2.5.1</a>
-1. OMG: <a href="http://www.omg.org/spec/FUML/" target="_blank">Semantics of a Foundational Subset for Executable UML Models (FUML™)</a>
 1. OMG: <a href="https://www.omg.org/spec/SysML/1.6/PDF" target="_blank">System Modeling Language® (OMG SysML®) Version 1.6</a>
+1. OMG: <a href="http://www.omg.org/spec/FUML/" target="_blank">Semantics of a Foundational Subset for Executable UML Models (FUML™)</a>
 1. OMG: <a href="https://www.omg.org/dol/" target="_blank">Distributed Ontology, Model, and Specification Language™ (DOL™)</a>
 1. OMG: <a href="https://www.omg.org/spec/MOF2RDF/" target="_blank">MOF to RDF Mapping (MOF2RDF)</a>
+1. <a href="https://basic-formal-ontology.org/bfo-2020.html" target="_blank">Basic Formal Ontology (BFO) 2020</a>
+1. OAGi/IOF: <a href="https://oagi.org/pages/industrial-ontologies" target="_blank">Industrial Ontologies Foundry</a>
 1. FMC Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>
 1. Weilkiens, Tim: <a href="https://dpunkt.de/produkt/systems-engineering-mit-sysml-uml/" target="_blank">Systems Engineering mit SysML/UML</a>, dpunkt.verlag, 2014, ISBN Print: 978-3-86490-091-4
 1. Weilkiens, Tim: <a href="https://mbse4u.com/sysmod/" target="_blank">SYSMOD – Pragmatic MBSE with SysML</a>, MBSE4U Booklet Series
