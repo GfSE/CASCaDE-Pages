@@ -13,11 +13,11 @@ nav_order: 970
 1. Dublin Core Metadata Inituative (DCMI): <a href="https://www.dublincore.org/specifications/dublin-core/dc-rdf-notes/" target="_blank">Notes on DCMI specifications for expressing Dublin Core<sup>TM</sup> metadata in RDF</a>
 1. OMG: <a href="https://www.omg.org/spec/COMMONS" target="_blank">Commons Ontology Library</a>
 1. OMG: <a href="https://www.omg.org/spec/MVF" target="_blank">Multiple Vocabulary Facility (MVF)</a>
-1. OMG: <a href="https://www.omg.org/spec/UML/2.5.1/PDF" target="_blank">Unified Modeling Language® (OMG UML®) Version 2.5.1</a>
-1. OMG: <a href="https://www.omg.org/spec/SysML/1.6/PDF" target="_blank">System Modeling Language® (OMG SysML®) Version 1.6</a>
-1. OMG: <a href="http://www.omg.org/spec/FUML/" target="_blank">Semantics of a Foundational Subset for Executable UML Models (FUML™)</a>
 1. OMG: <a href="https://www.omg.org/dol/" target="_blank">Distributed Ontology, Model, and Specification Language™ (DOL™)</a>
 1. OMG: <a href="https://www.omg.org/spec/MOF2RDF/" target="_blank">MOF to RDF Mapping (MOF2RDF)</a>
+1. OMG: <a href="https://www.omg.org/spec/UML/2.5.1/PDF" target="_blank">Unified Modeling Language® (OMG UML®) Version 2.5.1</a>
+1. OMG: <a href="http://www.omg.org/spec/FUML/" target="_blank">Semantics of a Foundational Subset for Executable UML Models (FUML™)</a>
+1. OMG: <a href="https://www.omg.org/spec/SysML/1.6/PDF" target="_blank">System Modeling Language® (OMG SysML®) Version 1.6</a>
 1. <a href="https://basic-formal-ontology.org/bfo-2020.html" target="_blank">Basic Formal Ontology (BFO) 2020</a>
 1. OAGi/IOF: <a href="https://oagi.org/pages/industrial-ontologies" target="_blank">Industrial Ontologies Foundry</a>
 1. FMC Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>
@@ -30,7 +30,7 @@ nav_order: 970
 1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Lukasz; Litman, Karol; Cisterna,Diego: <a href="https://www.researchgate.net/publication/332923775_Serialization_for_Property_Graphs" target="_blank">Serialization for Property Graphs</a>, 2019, DOI: 10.1007/978-3-030-19093-4_5
 1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Lukasz; Litman, Karol; Cisterna,Diego: <a href="https://www.researchgate.net/publication/331530733_YARS-PG_Serialization_for_Property_Graphs" target="_blank">YARS-PG: Serialization for Property Graphs</a>, 2019, DOI: 10.13140/RG.2.2.35773.92640
 1. Abuoda, Ghadeer; Dell'Aglio, Daniele; Keen, Arthur; Hose, Katja: <a href="https://ceur-ws.org/Vol-3279/paper2.pdf" target="_blank">Transforming RDF-star to Property Graphs: A Preliminary Analysis of Transformation Approaches</a>, DOI: <a href="https://doi.org/10.48550/arXiv.2210.05781" target="_blank">10.48550/arXiv.2210.05781</a> 
-1. Kaufmann, U., et al.: <a href="http://gfse.de/Dokumente_Mitglieder/ag_ergebnisse/PLM4MBSE/PLM4MBSE_Position_paper_V_1_1.pdf" target="_blank">10 Theses about MBSE and PLM</a>
+1. Kaufmann, U., et al.: <a href="http://gfse.de/Dokumente_Mitglieder/ag_ergebnisse/PLM4MBSE/PLM4MBSE_Position_paper_V_1_1.pdf" target="_blank">10 Theses about MBSE and PLM</a>, GfSE Position Paper, 2015
 1. Eichmann, Oliver C.; Lamm, Jesko G.; Melzer, Sylvia; Weilkiens, Tim; God, Ralf: <a href="https://incose.onlinelibrary.wiley.com/doi/epdf/10.1002/sys.21761?src=getftr" target="_blank">Development of functional architectures for cyber-physical systems using interconnectable models</a>, integrate24 The Digital Engineering Symposium Cleveland, 2024
 1. Stünkel, Patrick: <a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/handle/11250/2837740?locale-attribute=en" target="_blank">A framework for multi-model consistency management</a>, Western Norway University of Applied Sciences, Dissertation 2022
 1. Harmse, Henriette: <a href="https://henrietteharmse.com/wp-content/uploads/2017/11/uml-class-diagram-to-owl-and-sroiq-reference.pdf" target="_blank">UML Class Diagram to OWL and SROIQ Reference</a>, 2017
