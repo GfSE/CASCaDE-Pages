@@ -25,7 +25,7 @@ Certification is needed later on once the standard is established and software p
 	.blue {background-color:rgb(194,220,242);}
 	.rose {background-color:rgb(243,194,194);}
 	.yellow {background-color:rgb(255,249,201);}
-	.size-20 {width:20%}
+	.width-20 {width:20%}
 </style>
 
 The normative specification will be prepared by the Submission Team. 
@@ -41,7 +41,7 @@ Proposal for agile project management:
 <table>
 <thead>
 <tr>
-<th>Subproject</th><th>Description</th><th>Responsibility</th>
+<th>Subproject</th><th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -84,7 +84,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -99,7 +99,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -117,7 +117,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -138,7 +138,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -159,7 +159,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -180,7 +180,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -201,7 +201,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ This reflects the current planning which shall be reviewed and reworked with the
 <table>
 <thead>
 <tr>
-<th>Description</th><th class="size-20">Responsibility</th>
+<th>Description</th><th class="width-20">Responsibility</th>
 </tr>
 </thead>
 <tbody>
