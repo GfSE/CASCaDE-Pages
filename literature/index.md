@@ -29,10 +29,6 @@ nav_order: 970
 1. Knöpfel, Andreas; Gröne, Bernhard; Tabeling, Peter: <a href="https://www.wiley.com/en-ie/Fundamental+Modeling+Concepts%3A+Effective+Communication+of+IT+Systems-p-9780470027103" target="_blank">Fundamental Modeling Concepts: Effective Communication of IT Systems</a>, Wiley 2006.
 1. Szeremeta, Łukasz; Tomaszuk, Dominik; Angles, Renzo: <a href="https://www.researchgate.net/publication/380813134_YARS-PG_Property_Graphs_Representation_for_Publication_and_Exchange" target="_blank">YARS-PG: Property Graphs Representation for Publication and Exchange</a>, 2024, DOI: 10.1109/ACCESS.2024.3403924
 1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Łukasz;  Litman, Karol; Cisterna, Diego: <a href="https://www.w3.org/Data/events/data-ws-2019/assets/posters/LukaszSzeremeta-1.pdf" target="_blank">YARS-PG: Serialization for Property Graphs</a>
-<!--
-1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Łukasz; Litman, Karol; Cisterna,Diego: <a href="https://www.researchgate.net/publication/332923775_Serialization_for_Property_Graphs" target="_blank">Serialization for Property Graphs</a>, 2019, DOI: 10.1007/978-3-030-19093-4_5
-1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Łukasz; Litman, Karol; Cisterna,Diego: <a href="https://www.researchgate.net/publication/331530733_YARS-PG_Serialization_for_Property_Graphs" target="_blank">YARS-PG: Serialization for Property Graphs</a>, 2019, DOI: 10.13140/RG.2.2.35773.92640
--->
 1. Abuoda, Ghadeer; Dell'Aglio, Daniele; Keen, Arthur; Hose, Katja: <a href="https://ceur-ws.org/Vol-3279/paper2.pdf" target="_blank">Transforming RDF-star to Property Graphs: A Preliminary Analysis of Transformation Approaches</a>, DOI: <a href="https://doi.org/10.48550/arXiv.2210.05781" target="_blank">10.48550/arXiv.2210.05781</a> 
 1. Kaufmann, U., et al.: <a href="http://gfse.de/Dokumente_Mitglieder/ag_ergebnisse/PLM4MBSE/PLM4MBSE_Position_paper_V_1_1.pdf" target="_blank">10 Theses about MBSE and PLM</a>, GfSE Position Paper, 2015
 1. Eichmann, Oliver C.; Lamm, Jesko G.; Melzer, Sylvia; Weilkiens, Tim; God, Ralf: <a href="https://incose.onlinelibrary.wiley.com/doi/epdf/10.1002/sys.21761?src=getftr" target="_blank">Development of functional architectures for cyber-physical systems using interconnectable models</a>, integrate24 The Digital Engineering Symposium Cleveland, 2024
@@ -57,5 +53,9 @@ TR-2008-004
 1. Calvanese, Diego; De Giacomo, Giuseppe: <a href="http://www.diag.uniroma1.it/~degiacom/didattica/esslli03/ESSLLI-03-slides-1.pdf" target="_blank">Description Logics for Conceptual Data Modeling in UML</a>, Università di Roma “La Sapienza”, 2003
 1. Calì, A.; Calvanese, D.; De Giacomo, G. and Lenzerini, M.: <a href="https://bia.unibz.it/esploro/outputs/conferenceProceeding/A-formal-framework-for-reasoning-on/991005772840001241" target="_blank">A formal framework for reasoning on UML class diagrams</a>, Free University Bolzano, 2002, DOI:10.1007/3-540-48050-1_54
 
+<!--
+1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Łukasz; Litman, Karol; Cisterna,Diego: <a href="https://www.researchgate.net/publication/332923775_Serialization_for_Property_Graphs" target="_blank">Serialization for Property Graphs</a>, 2019, DOI: 10.1007/978-3-030-19093-4_5
+1. Tomaszuk, Dominik; Angles, Renzo; Szeremeta, Łukasz; Litman, Karol; Cisterna,Diego: <a href="https://www.researchgate.net/publication/331530733_YARS-PG_Serialization_for_Property_Graphs" target="_blank">YARS-PG: Serialization for Property Graphs</a>, 2019, DOI: 10.13140/RG.2.2.35773.92640
+-->
 
 <!-- link template <a href="" target="_blank"></a> -->
