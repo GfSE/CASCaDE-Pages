@@ -75,42 +75,43 @@ integration to an overarching Knowledge Graph is required.
 
 Finally, there are different ways of interaction between organizations or, in 
 terms of BPMN, collaborating participants. 
-
 Generally speaking, four _collaboration modes_ can be identified, which include the Boeing _collaboration levels_.
 
-<img src="./assets/images/Collaboration-Mode-1.png" alt="Collaboration-Mode-1" />
-_Fig.4: Collaboration Mode 1: Traditional File Transfer_
-
-Collaboration Mode 1: Traditional File Transfer
+**Collaboration Mode 1: Traditional File Transfer**
 - Partners operate on separate databases 
 - Synchronization needed
 
-<img src="./assets/images/Collaboration-Mode-2.png" alt="Collaboration-Mode-2" />
-_Fig.5: Collaboration Mode 2: Private Hub_
+<img src="./assets/images/Collaboration-Mode-1.png" alt="Collaboration-Mode-1" />
+_Fig.3: Collaboration Mode 1: Traditional File Transfer_
 
-Collaboration Mode 2: One partner provides Hub
+**Collaboration Mode 2: Private Hub**
 - Transaction Processing on common database
+- operated by one of the participants
 
-<img src="./assets/images/Collaboration-Mode-3a.png" alt="Collaboration-Mode-3" />
-_Fig.6: Collaboration Mode 2: Public Hub_
+<img src="./assets/images/Collaboration-Mode-2.png" alt="Collaboration-Mode-2" />
+_Fig.4: Collaboration Mode 2: Private Hub_
 
-Collaboration Mode 3: Hub as a Public Service
+**Collaboration Mode 3: Public Hub**
 - Transaction Processing on common database
 - operated by a third party („SaaS“)
 
-<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" />
-_Fig.7: Collaboration Mode 4: Federated Dataspace_
+<img src="./assets/images/Collaboration-Mode-3a.png" alt="Collaboration-Mode-3" />
+_Fig.5: Collaboration Mode 2: Public Hub_
 
-Collaboration Mode 4: Federated Dataspace
+**Collaboration Mode 4: Federated Dataspace**
 - Transaction Processing on multiple distributed databases where each partner has full control over the access rights to her/his data
 - A partner‘s package may be part of multiple dataspaces
 
-Boeing for example defines four 
-levels of collaboration in their Supplier Enablement Framework (SEF) as shown 
-in Fig. 3.
+<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" />
+_Fig.6: Collaboration Mode 4: Federated Dataspace_
+
+**Example: Boeing Levels of Collaboration**
+
+Boeing for example defines four levels of collaboration in their Supplier Enablement Framework (SEF) 
+as shown in Fig.7.
 
 <img src="./assets/images/Boeing-Collaboration-Levels.png" alt="Boeing-Collaboration-Levels" />
-_Fig.3: Boeing defines four levels of collaboration using a “Technical Data Package” (TDP). Source: Boeing Inc._
+_Fig.7: Boeing defines four levels of collaboration using a “Technical Data Package” (TDP). Source: Boeing Inc._
 
 The four levels of collaboration are characterized as follows:
 

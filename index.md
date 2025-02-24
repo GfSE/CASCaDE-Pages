@@ -23,8 +23,8 @@ Additional support by financial and/or personal contribution is needed to verify
 
 <div style="float: left; margin-right: 20px; max-width:80px"><a href="https://gfse.org/" target="_blank"><img src="./assets/logos/GfSE-Incose-Logo.web.png" /></a></div>
 <div style="float: left; margin-right: 20px; max-width:80px"><a href="https://www.prostep.org/" target="_blank"><img src="./assets/logos/logo-prostep-ivip.png" /></a></div>
-<div style="float: left; max-width:80px"><a href="https://www.vda.de/" target="_blank"><img src="./assets/logos/logo-vda.jpg" /></a></div>
-<div style="float: left; max-width:80px"><a href="https://pdesinc.org/" target="_blank"><img src="./assets/logos/PDES-web-logo.png" /></a></div>
+<div style="float: left; margin-right: 20px; max-width:80px"><a href="https://www.vda.de/" target="_blank"><img src="./assets/logos/logo-vda.jpg" /></a></div>
+<div style="float: left; max-width:100px"><a href="https://pdesinc.org/" target="_blank"><img src="./assets/logos/PDES-web-logo.png" /></a></div>
 <div style="clear:both"></div>
 
 ## Objective
