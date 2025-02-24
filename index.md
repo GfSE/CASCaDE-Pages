@@ -18,13 +18,13 @@ The "Digital Data Package" (<a href="https://www.prostep.org/shop/detail?ai[acti
 as well as <a href="https://www.omg.org/spec/SysML/2.0/Beta2/About-SysML">SysML v2</a> 
 are technologies contributing to the standard submission.
 
-Initial funding is provided by <a href="https://www.prostep.org/">Prostep iViP e.V.</a>, 
-<a href="https://www.vda.de">VDA e.V.</a> and <a href="https://GfSE.org">GfSE e.V.</a>. 
-Additional support by personal contribution or budget is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./project/) below.  
+Initial funding is provided by <a href="https://www.prostep.org/">Prostep iViP e.V.</a>, <a href="https://GfSE.org">GfSE e.V.</a>, <a href="https://www.vda.de">VDA e.V.</a> and <a href="https://pdesinc.org/">PDES Inc.</a>. 
+Additional support by financial and/or personal contribution is needed to verify and validate the emerging standard using a reference implementation. See chapter [Project](./project/) below.  
 
 <div style="float: left; margin-right: 20px; max-width:80px"><a href="https://gfse.org/" target="_blank"><img src="./assets/logos/GfSE-Incose-Logo.web.png" /></a></div>
 <div style="float: left; margin-right: 20px; max-width:80px"><a href="https://www.prostep.org/" target="_blank"><img src="./assets/logos/logo-prostep-ivip.png" /></a></div>
 <div style="float: left; max-width:80px"><a href="https://www.vda.de/" target="_blank"><img src="./assets/logos/logo-vda.jpg" /></a></div>
+<div style="float: left; max-width:80px"><a href="https://pdesinc.org/" target="_blank"><img src="./assets/logos/PDES-web-logo.png" /></a></div>
 <div style="clear:both"></div>
 
 ## Objective
