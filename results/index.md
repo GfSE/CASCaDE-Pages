@@ -9,15 +9,15 @@ nav_order: 90
 
 ### 2025-03-20 Metamodel Discussed at OMG TC Meeting in Reston VA
 
-In Q1, the team of CASCaDE work-page one has prepared a draft metamodel for a knowledge graph 
+In Q1, the team of CASCaDE work-page 1 has prepared a draft metamodel for a knowledge graph 
 containing interrelated product information from different sources. 
 A major design goal is to reduce the graph's power of expression as much as permitted by the real world data,
 so that the choice of technologies is as wide as possible. Requirements have been identified
 to assess potential solutions. A simple example has been prepared for illustration and review.
 
 Please have a look:
-- Product Information Graph Metamodel (draft): <a href="https://specif.de/apps-alpha/edit#import=./2025-03-25%20Metamodel/Product%20Information%20Graph.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="./2025-03-25%20Metamodel/" target="_blank" >HTML</a>.
-- Very Simple Model with Requirements: <a href="https://specif.de/apps-alpha/edit#import="https://specif.de\examples\v1.2\09_Very-Simple-Model-FMC-with-Requirements.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="https://github.com/GfSE/CASCaDE-Verification-and-Validation/blob/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF/Project%20'Very%20Simple%20Model%20(FMC)%20with%20Requirements'.ttl" target="_blank" >RDF</a>.
+- Product Information Graph Metamodel (draft): <a href="https://specif.de/apps-alpha/edit#import=https://cascade.gfse.org/results/2025-03-25%20Metamodel/Product%20Information%20Graph.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="./2025-03-25%20Metamodel/" target="_blank" >HTML</a>.
+- Very Simple Model with Requirements: <a href="https://specif.de/apps-alpha/edit#import=..\examples\v1.2\09_Very-Simple-Model-FMC-with-Requirements.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="https://github.com/GfSE/CASCaDE-Verification-and-Validation/blob/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF/Project%20'Very%20Simple%20Model%20(FMC)%20with%20Requirements'.ttl" target="_blank" >RDF</a>.
 
 As a next step, an ontology shall be developed to map the concepts of different domains to the integrated graph 
 and the metamodel shall be verified and validated with real world data. Towards this end we urgently need help by 
