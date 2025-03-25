@@ -7,7 +7,7 @@ nav_order: 90
 
 # Results
 
-### 2025-03-20 Metamodel Discussed at OMG TC Meeting in Reston VA
+### 2025-03-25 Metamodel Discussed at OMG TC Meeting in Reston VA
 
 In Q1, the team of CASCaDE work-package 1 has prepared a draft metamodel for a knowledge graph 
 containing interrelated product information from different sources. 
