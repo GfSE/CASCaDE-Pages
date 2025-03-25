@@ -9,14 +9,14 @@ nav_order: 90
 
 ### 2025-03-20 Metamodel Discussed at OMG TC Meeting in Reston VA
 
-In Q1, the team of CASCaDE work-page 1 has prepared a draft metamodel for a knowledge graph 
+In Q1, the team of CASCaDE work-package 1 has prepared a draft metamodel for a knowledge graph 
 containing interrelated product information from different sources. 
 A major design goal is to reduce the graph's power of expression as much as permitted by the real world data,
 so that the choice of technologies is as wide as possible. Requirements have been identified
 to assess potential solutions. A simple example has been prepared for illustration and review.
 
 The discussions last week in Reston with other OMG initiatives such as SysML v2, RAS, SPDX and others 
-have shown a lot of potential for cooperation and reuse. For good reason, users expect complimentary standards.
+have shown a lot of potential for cooperation and reuse. For good reason, users expect complementary standards.
 
 Please have a look:
 - Product Information Graph Metamodel (draft): <a href="https://specif.de/apps-alpha/edit#import=https://cascade.gfse.org/results/2025-03-25%20Metamodel/Product%20Information%20Graph.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="./2025-03-25%20Metamodel/" target="_blank" >HTML</a>.
