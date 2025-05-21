@@ -257,7 +257,7 @@ and reviewing the results per iteration ("sprint").
 <td><a href="https://enso-managers.de" target="_blank">enso managers GmbH, Berlin</a></td><td>O.v.Dungern</td><td>Software Architect, Product Owner</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">0.4 FTE</td>
 </tr>
 <tr>
-<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td>J.M.Alletto<td></td><td>Software Architect, Product Owner</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
+<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>J.M.Alletto</td><td>Software Architect, Product Owner</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
 <td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
