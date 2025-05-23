@@ -243,13 +243,13 @@ This reflects the current planning which shall be reviewed and reworked with the
 The teams responsible for reference implementation resp. verification and validation are looking for funding. 
 The work will begin, if a minimum capacity of 4 full-time-equivalent (FTE) team members are committed.
 
-Organizations contributing to the effort will form a Stakeholder Committee (SC) defining the priority of backlog items 
+Organizations contributing to the effort will form a Stakeholder Committee (StC) defining the priority of backlog items 
 and reviewing the results per iteration ("sprint").
 
 <table>
 <thead>
 <tr>
-<th>Organization</th><th>SC Member</th><th>Roles</th><th>2025</th><th>2026</th>
+<th>Organization</th><th>StC Member</th><th>Roles</th><th>2025</th><th>2026</th>
 </tr>
 </thead>
 <tbody>
@@ -257,7 +257,7 @@ and reviewing the results per iteration ("sprint").
 <td><a href="https://enso-managers.de" target="_blank">enso managers GmbH, Berlin</a></td><td>O.v.Dungern</td><td>Software Architect, Product Owner</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">0.4 FTE</td>
 </tr>
 <tr>
-<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>J.M.Alletto</td><td>Software Architect, Product Owner</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
+<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>J.M.Alletto</td><td>Software Architect, Product Owner, Software Developer</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
 <td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
@@ -306,7 +306,7 @@ Why should software-vendors develop the standard core-features of CASCaDE indepe
 </td>
 <td>
 <ul>
-<li>„Basic Features“ (Kano) don‘t allow differentiation and are commonly developed; lots of cost saved</li>
+<li>„Basic Features“ (Kano) don‘t allow differentiation and are jointly developed; lots of cost saved</li>
 <li>Discussion and support by voluntary contributors</li>
 <li>Market-proven base for „Enterprise Editions“ with professional features</li>
 <li>Solution gets known without marketing effort</li>
