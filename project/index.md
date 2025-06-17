@@ -243,13 +243,13 @@ This reflects the current planning which shall be reviewed and reworked with the
 The teams responsible for reference implementation resp. verification and validation are looking for funding. 
 The work will begin, if a minimum capacity of 4 full-time-equivalent (FTE) team members are committed.
 
-Organizations contributing to the effort will form a Stakeholder Committee (StC) defining the priority of backlog items 
+Organizations contributing to the effort will form a Product Owner Committee (POC) defining the priority of backlog items 
 and reviewing the results per iteration ("sprint").
 
 <table>
 <thead>
 <tr>
-<th>Organization</th><th>StC Member</th><th>Roles</th><th>2025</th><th>2026</th>
+<th>Organization</th><th>POC Member</th><th>Roles</th><th>2025</th><th>2026</th>
 </tr>
 </thead>
 <tbody>
@@ -260,13 +260,17 @@ and reviewing the results per iteration ("sprint").
 <td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>J.M.Alletto</td><td>Software Architect, Product Owner, Software Developer</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
-<td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
+<td>a href="https://www.se-zert.org/" target="_blank">SE-TREC GmbH</a></td><td>R.Kaffenberger</td><td>Sponsor</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">tbd</td>
+</tr>
+<tr>
+<td></td><td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 
 <div style="float: left; max-width:150px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
 <div style="float: left; max-width:150px"><a href="https://psg-inc.net/" target="_blank"><img src="../assets/logos/logo-psg.jpg" /></a></div>
+<div style="float: left; max-width:150px"><a href="https://www.se-zert.org/" target="_blank"><img src="../assets/logos/SE-TREC-Logo.png" /></a></div>
 <div style="clear:both"></div>
 
 ## Why Open Source ?
