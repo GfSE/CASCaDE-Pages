@@ -260,7 +260,7 @@ and reviewing the results per iteration ("sprint").
 <td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>J.M.Alletto</td><td>Software Architect, Product Owner, Software Developer</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
-<td>a href="https://www.se-zert.org/" target="_blank">SE-TREC GmbH</a></td><td>R.Kaffenberger</td><td>Sponsor</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">tbd</td>
+<td>SE-TREC GmbH</td><td>R.Kaffenberger</td><td>Sponsor</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
 <td></td><td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
@@ -270,7 +270,7 @@ and reviewing the results per iteration ("sprint").
 
 <div style="float: left; max-width:150px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
 <div style="float: left; max-width:150px"><a href="https://psg-inc.net/" target="_blank"><img src="../assets/logos/logo-psg.jpg" /></a></div>
-<div style="float: left; max-width:150px"><a href="https://www.se-zert.org/" target="_blank"><img src="../assets/logos/SE-TREC-Logo.png" /></a></div>
+<div style="float: left; max-width:120px"><a href="https://www.se-zert.org/" target="_blank"><img src="../assets/logos/SE-TREC-Logo.png" /></a></div>
 <div style="clear:both"></div>
 
 ## Why Open Source ?
