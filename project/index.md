@@ -268,9 +268,9 @@ and reviewing the results per iteration ("sprint").
 </tbody>
 </table>
 
-<div style="float: left; max-width:150px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
-<div style="float: left; max-width:150px"><a href="https://psg-inc.net/" target="_blank"><img src="../assets/logos/logo-psg.jpg" /></a></div>
-<div style="float: left; max-width:90px"><img src="../assets/logos/SE-TREC-Logo.png" /></div>
+<div style="float: left; max-width:140px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
+<div style="float: left; max-width:140px"><a href="https://psg-inc.net/" target="_blank"><img src="../assets/logos/logo-psg.jpg" /></a></div>
+<div style="float: left; max-width:70px"><img src="../assets/logos/SE-TREC-Logo.png" /></div>
 <div style="clear:both"></div>
 
 ## Why Open Source ?
