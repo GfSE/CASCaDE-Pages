@@ -1,0 +1,394 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <https://www.w3.org/ns/shacl> .
+@prefix W3C: <https://www.w3.org/standards/semanticweb#> .
+@prefix xs: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix schema: <https://schema.org#> .
+@prefix iana: <https://www.iana.org/assignments/media-types#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/#> .
+@prefix FMC: <http://fmc-modeling.org/#> .
+@prefix IR: <https://www.adesso.de/de/impulse/interaction-room/index.jsp#> .
+@prefix IREB: <https://www.ireb.org/en/downloads/#cpre-glossary> .
+@prefix ReqIF: <https://www.prostep.org/fileadmin/downloads/PSI_ImplementationGuide_ReqIF_V1-7.pdf#> .
+@prefix ReqIF-WF: <https://www.prostep.org/fileadmin/downloads/Recommendation_ReqIF_V2_RZ3.pdf#> .
+@prefix HIS: <https://www.itwissen.info/Herstellerinitiative-Software-Automotive-HIS.html#> .
+@prefix oslc: <http://open-services.net/ns/core#> .
+@prefix oslc_rm: <http://open-services.net/ns/rm#> .
+@prefix oslc_cm: <http://open-services.net/ns/cm#> .
+@prefix ArchiMate: <https://pubs.opengroup.org#> .
+@prefix bpmn: <https://www.bpmn.org/#> .
+@prefix uml: <https://www.omg.org/spec/UML#> .
+@prefix sysml: <https://www.omg.org/spec/SysML#> .
+@prefix pig: <https://product-information-graph.org/schema/#> .
+@prefix DDP: <http://www.prostep.org/dictionary/2.0#> .
+@prefix SpecIF: <https://specif.de/v1.1/schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+@prefix : <https://product-information-graph.org/examples/Libraries%20(Example).specif.zip/> .
+
+#################################################################
+# Project Metadata
+#################################################################
+
+:
+	a owl:Ontology ;
+	rdfs:label "Libraries (Example)" ;
+	rdfs:comment "An ontology-based data-set with libraries, their books and authors." ;
+	owl:imports <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ,
+		<http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+# Data Types with Enumerated Values
+#################################################################
+
+#################################################################
+# Property Classes
+#################################################################
+
+rdfs:label
+	a owl:DatatypeProperty ;
+	rdfs:comment "<div><p><code>rdfs:label</code> is an instance of <code>rdf:Property</code> that may be used to provide a human-readable version of a resource's name.</p><p>A triple of the form:</p><blockquote> <code>R rdfs:label L</code></blockquote><p>states that L is a human readable label for R.</p><p>The <code>rdfs:domain</code> of <code>rdfs:label</code> is <code>rdfs:Resource</code>. The <a href=\"#ch_range\"><code>rdfs:range</code></a> of rdfs:label is <code>rdfs:Literal</code>.</p><p>Multilingual labels are supported using the <a href=\"https://www.w3.org/TR/rdf12-concepts/#section-Graph-Literal\" id=\"ref-for-index-term-literal-2\">language tagging</a> facility of RDF literals.</p></div>" .
+
+:PC-Name-Shape
+	a sh:PropertyShape ;
+	sh:path :PC-Name ;
+	sh:datatype xsd:string ;
+	sh:maxLength "256" ;
+	sh:maxCount "1" .
+
+:PC-Name
+	owl:subPropertyOf rdfs:label ;
+	rdfs:label "rdfs:label" ;
+	rdfs:comment "<p>A name given to the resource. <small>(<i>source: <a href=\"http://purl.org/dc/elements/1.1/title\">DCMI</a></i>)</small></p><p>Title (reference: Dublin Core) of the resource represented as rich text in XHTML content. SHOULD include only content that is valid inside an XHTML 'span' element. <small>(<i>source: <a href=\"http://open-services.net/\">OSLC</a></i>)</small></p>" ;
+	dcterms:modified "2025-07-08T08:21:08.696Z" .
+
+rdfs:comment
+	a owl:DatatypeProperty ;
+	rdfs:comment "<div><p><code>rdfs:comment</code> is an instance of <code>rdf:Property</code> that may be used to provide a human-readable description of a resource.</p><p>A triple of the form:</p><blockquote> <code>R rdfs:comment L</code></blockquote><p>states that L is a human readable description of R.</p><p>The <code>rdfs:domain</code> of <code>rdfs:comment</code> is <code>rdfs:Resource</code>. The <code>rdfs:range</code> of rdfs:comment is <code>rdfs:Literal</code>.</p><p>A textual comment helps clarify the meaning of RDF classes and properties. Such in-line documentation complements the use of both formal techniques (Ontology and rule languages) and informal (prose documentation, examples, test cases). A variety of documentation forms can be combined to indicate the intended meaning of the classes and properties described in an RDF vocabulary. Since RDF vocabularies are expressed as RDF graphs, vocabularies defined in other namespaces may be used to provide richer documentation.</p><p>Multilingual documentation is supported through use of the <a href=\"https://www.w3.org/TR/rdf12-concepts/#section-Graph-Literal\" id=\"ref-for-index-term-literal-3\">language tagging</a> facility of RDF literals.</p></div>" .
+
+:PC-Description-Shape
+	a sh:PropertyShape ;
+	sh:path :PC-Description ;
+	sh:datatype xsd:string ;
+	sh:maxCount "1" .
+
+:PC-Description
+	owl:subPropertyOf rdfs:comment ;
+	rdfs:label "rdfs:comment" ;
+	rdfs:comment "<p>An account of the resource. <small>(<i>source: <a href=\"http://purl.org/dc/elements/1.1/description\">DCMI</a></i>)</small></p><p>Descriptive text (reference: Dublin Core) about resource represented as rich text in XHTML content. SHOULD include only content that is valid and suitable inside an XHTML 'div' element. <small>(<i>source: <a href=\"http://open-services.net/\">OSLC</a></i>)</small></p>" ;
+	dcterms:modified "2025-07-08T08:23:17.106Z" .
+
+:PC-ExlibLocation-Shape
+	a sh:PropertyShape ;
+	sh:path :PC-ExlibLocation ;
+	sh:datatype xsd:string ;
+	sh:maxLength "256" ;
+	sh:maxCount "1" .
+
+:PC-ExlibLocation
+	a owl:DatatypeProperty ;
+	rdfs:label "exlib:Location" ;
+	rdfs:comment "The geographic location." ;
+	dcterms:modified "2025-07-08T17:08:45.064Z" .
+
+:PC-ExlibIsbn-Shape
+	a sh:PropertyShape ;
+	sh:path :PC-ExlibIsbn ;
+	sh:datatype xsd:string ;
+	sh:maxLength "32" ;
+	sh:minCount "1" ;
+	sh:maxCount "1" .
+
+:PC-ExlibIsbn
+	a owl:DatatypeProperty ;
+	rdfs:label "exlib:ISBN" ;
+	rdfs:comment "The International Standard Book Number (ISBN) is a numeric commercial book identifier that is intended to be unique. Publishers purchase or receive ISBNs from an affiliate of the International ISBN Agency. <small><i>Source: [Wikipedia](https://en.wikipedia.org/wiki/ISBN)</i></small>" ;
+	dcterms:modified "2025-07-09T15:57:16.944Z" .
+
+#################################################################
+# Resource Classes
+#################################################################
+
+pig:OrganizerClass
+	a owl:Class .
+
+pig:EntityClass
+	a owl:Class .
+
+:RC-ExlibLibrary-Shape
+	a sh:NodeShape ;
+	sh:targetClass :RC-ExlibLibrary ;
+	sh:property :PC-Name-Shape ;
+	sh:property :PC-Description-Shape ;
+	sh:property :PC-ExlibLocation-Shape .
+
+:RC-ExlibLibrary
+	rdfs:subClassOf pig:EntityClass ;
+	rdfs:label "exlib:Library" ;
+	rdfs:comment "Term used for libraries in the example." ;
+	pig:Icon "&#8962;" ;
+	dcterms:modified "2025-07-08T17:09:16.545Z" .
+
+:RC-ExlibAsset-Shape
+	a sh:NodeShape ;
+	sh:targetClass :RC-ExlibAsset ;
+	sh:property :PC-Name-Shape ;
+	sh:property :PC-Description-Shape ;
+	sh:property :PC-ExlibIsbn-Shape .
+
+:RC-ExlibAsset
+	rdfs:subClassOf pig:EntityClass ;
+	rdfs:label "exlib:Asset" ;
+	rdfs:comment "In the example, the term used for library assets such as books. Editions are represented, not the individuals." ;
+	pig:Icon "&#128463;" ;
+	dcterms:modified "2025-07-09T15:57:45.046Z" .
+
+:RC-ExlibAuthor-Shape
+	a sh:NodeShape ;
+	sh:targetClass :RC-ExlibAuthor ;
+	sh:property :PC-Name-Shape ;
+	sh:property :PC-Description-Shape .
+
+:RC-ExlibAuthor
+	rdfs:subClassOf pig:EntityClass ;
+	rdfs:label "exlib:Author" ;
+	rdfs:comment "Term used for book authors in the example." ;
+	pig:Icon "&#9998;" ;
+	dcterms:modified "2025-07-08T08:28:49.858Z" .
+
+SpecIF:Heading
+	owl:subClassOf pig:EntityClass ;
+	rdfs:comment "Eine 'Überschrift' in einem Dokument ist der Titel eines Kapitels. Sie kann eine Beschreibung haben, die als Einleitung oder Zusammenfassung des Kapitels genutzt werden kann." .
+
+:RC-Folder-Shape
+	a sh:NodeShape ;
+	sh:targetClass :RC-Folder ;
+	sh:property :PC-Name-Shape ;
+	sh:property :PC-Description-Shape .
+
+:RC-Folder
+	owl:subClassOf SpecIF:Heading ;
+	rdfs:label "SpecIF:Heading" ;
+	rdfs:comment "A 'Folder' may appear at any level with optional description." ;
+	dcterms:modified "2025-07-08T16:15:47.758Z" .
+
+#################################################################
+# Statement Classes
+#################################################################
+
+pig:RelationshipClass
+	a owl:Class .
+
+pig:hasSubject
+	a owl:ObjectProperty .
+
+pig:hasObject
+	a owl:ObjectProperty .
+
+dcterms:hasPart
+	a owl:ObjectProperty ;
+	rdfs:comment "General containment relationship" .
+
+pig:hasElement
+	owl:subPropertyOf dcterms:hasPart ;
+	rdfs:comment "Containment relationship reserved for use in a hierarchy." .
+
+:SC-ExlibOwnedby-Shape
+	a sh:NodeShape ;
+	sh:targetClass :SC-ExlibOwnedby ;
+	sh:property :SC-ExlibOwnedby-hasSubject-Shape ;
+	sh:property :SC-ExlibOwnedby-hasObject-Shape .
+
+:SC-ExlibOwnedby
+	rdfs:subClassOf pig:RelationshipClass ;
+	rdfs:label "exlib:owned-by" ;
+	rdfs:comment "A relation to express that an asset (book) is owned by a library." ;
+	dcterms:modified "2025-07-09T13:17:31.049Z" .
+
+# Limit the node classes eligible as subject. Correct this way?
+:SC-ExlibOwnedby-hasSubject-Shape
+	a sh:PropertyShape ;
+	sh:path :SC-ExlibOwnedby-hasSubject ;
+	sh:class :RC-ExlibAsset ;
+	sh:minCount "1" ;
+	sh:maxCount "1" .
+
+:SC-ExlibOwnedby-hasSubject
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf pig:hasSubject ;
+	rdfs:label "Connects the subject of :SC-ExlibOwnedby" ;
+	rdfs:domain :SC-ExlibOwnedby ;
+	dcterms:modified "2025-07-09T13:17:31.049Z" .
+
+# Limit the node classes eligible as object. Correct this way?
+:SC-ExlibOwnedby-hasObject-Shape
+	a sh:PropertyShape ;
+	sh:path :SC-ExlibOwnedby-hasObject ;
+	sh:class :RC-ExlibLibrary ;
+	sh:minCount "1" ;
+	sh:maxCount "1" .
+
+:SC-ExlibOwnedby-hasObject
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf pig:hasObject ;
+	rdfs:label "Connects the object of :SC-ExlibOwnedby" ;
+	rdfs:domain :SC-ExlibOwnedby ;
+	dcterms:modified "2025-07-09T13:17:31.049Z" .
+
+:SC-ExlibWrittenby-Shape
+	a sh:NodeShape ;
+	sh:targetClass :SC-ExlibWrittenby ;
+	sh:property :SC-ExlibWrittenby-hasSubject-Shape ;
+	sh:property :SC-ExlibWrittenby-hasObject-Shape .
+
+:SC-ExlibWrittenby
+	rdfs:subClassOf pig:RelationshipClass ;
+	rdfs:label "exlib:written-by" ;
+	rdfs:comment "A relation to express that an asset (book) is written by an author." ;
+	dcterms:modified "2025-07-09T13:18:11.433Z" .
+
+# Limit the node classes eligible as subject. Correct this way?
+:SC-ExlibWrittenby-hasSubject-Shape
+	a sh:PropertyShape ;
+	sh:path :SC-ExlibWrittenby-hasSubject ;
+	sh:class :RC-ExlibAsset ;
+	sh:minCount "1" ;
+	sh:maxCount "1" .
+
+:SC-ExlibWrittenby-hasSubject
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf pig:hasSubject ;
+	rdfs:label "Connects the subject of :SC-ExlibWrittenby" ;
+	rdfs:domain :SC-ExlibWrittenby ;
+	dcterms:modified "2025-07-09T13:18:11.433Z" .
+
+# Limit the node classes eligible as object. Correct this way?
+:SC-ExlibWrittenby-hasObject-Shape
+	a sh:PropertyShape ;
+	sh:path :SC-ExlibWrittenby-hasObject ;
+	sh:class :RC-ExlibAuthor ;
+	sh:minCount "1" ;
+	sh:maxCount "1" .
+
+:SC-ExlibWrittenby-hasObject
+	a owl:ObjectProperty ;
+	rdfs:subPropertyOf pig:hasObject ;
+	rdfs:label "Connects the object of :SC-ExlibWrittenby" ;
+	rdfs:domain :SC-ExlibWrittenby ;
+	dcterms:modified "2025-07-09T13:18:11.433Z" .
+
+#################################################################
+# Resources
+#################################################################
+
+:R-fn2kURwUacSnQukjzY7R85MaGp4
+	a :RC-Folder ;
+	:PC-Name "Libraries" ;
+	dcterms:modified "2025-07-08T17:04:52.126Z" .
+
+:R-EJHGNB1bJiG8JrAvjC248aD8l9q
+	a :RC-ExlibLibrary ;
+	:PC-Name "Bibliothèque nationale de France (BnF)" ;
+	:PC-ExlibLocation "Paris" ;
+	dcterms:modified "2025-07-09T13:48:44.244Z" .
+
+:R-nz5BukDj9QIchIjNNXGyme2nBLe
+	a :RC-Folder ;
+	:PC-Name "Assets" ;
+	dcterms:modified "2025-07-08T17:05:18.357Z" .
+
+:R-cDYKFGyAvwVsSmBbdKuPgWm6Wyj
+	a :RC-ExlibAsset ;
+	:PC-Name "Le Malade" ;
+	dcterms:modified "2025-07-09T13:21:55.636Z" .
+
+:R-2snNk3wXKoehqACXhxmCuSXymHq
+	a :RC-ExlibAsset ;
+	:PC-Name "Les petits enfants du siecle" ;
+	:PC-Description "Jo de Bagnolet \" est née des allocations et d'un jour férié dont la matinée s'étirait, bienheureuse \".Dix enfants vont suivre, apportant en prime à leurs parents la machine à laver, le Frigidaire, la télé, la voiture et le prix Cognac ! Josyane les élèvera tous. Ses seules distractions : les courses et ses devoirs le soir sur la table de cuisine. Ses seuls amis, Nicolas, le petit frère qui comprend tout et Guido, le maçon italien, né sur les collines. L'amour de Guido bouleverse la vie de Josyane, il en chasse toute la laideur et la bêtise.Christine Rochefort fait ici un tableau criant de vérité des grands ensembles, de ces blocs illuminés la nuit, en plein ciel, si gris le jour, le béton cachant mal la pauvreté. Elle dit, admirablement et avec beaucoup d'humour, le mal de vivre à Bagnolet, à Sarcelles et autres lieux de même type, sans âme et sans arbres. Une oeuvre très forte du célèbre auteur du Repos du guerrier et des Stances à Sophie.<small><i>Source. [Sens Critique](https://www.senscritique.com/)</i></small>" ;
+	dcterms:modified "2025-07-09T16:10:42.282Z" .
+
+:R-jrm9qxsQCKcRUAfMawbf5Ncyv7P
+	a :RC-Folder ;
+	:PC-Name "Authors" ;
+	dcterms:modified "2025-07-08T17:05:40.292Z" .
+
+:R-IwsKLmahie4Fz8v8hFtNkDQPxy9
+	a :RC-ExlibAuthor ;
+	:PC-Name "Victor Hugo" ;
+	dcterms:modified "2025-07-09T13:22:16.649Z" .
+
+:R-Ju1ptHJPPutY1344eEA2xZKhRKM
+	a :RC-ExlibAuthor ;
+	:PC-Name "Christiane Rochefort" ;
+	dcterms:modified "2025-07-09T16:02:13.896Z" .
+
+#################################################################
+# Statements
+#################################################################
+
+:S-GFKvHWl3ML7zKGCR51QgMG9MCFJ
+	a :SC-ExlibOwnedby ;
+	:SC-ExlibOwnedby-hasSubject :R-cDYKFGyAvwVsSmBbdKuPgWm6Wyj ;
+	:SC-ExlibOwnedby-hasObject :R-EJHGNB1bJiG8JrAvjC248aD8l9q ;
+	dcterms:modified "2025-07-09T13:31:53.316Z" .
+
+:S-wQQlInyilSxz8orwdb4LkPQlleM
+	a :SC-ExlibWrittenby ;
+	:SC-ExlibWrittenby-hasSubject :R-cDYKFGyAvwVsSmBbdKuPgWm6Wyj ;
+	:SC-ExlibWrittenby-hasObject :R-IwsKLmahie4Fz8v8hFtNkDQPxy9 ;
+	dcterms:modified "2025-07-09T13:33:20.738Z" .
+
+#################################################################
+# Hierarchies
+#################################################################
+
+:N-HierarchyRoot
+	a pig:Organizer ;
+	rdfs:label "Hierarchy Root" ;
+	rdfs:comment "... anchoring all hierarchies of this graph (project)" ;
+	pig:hasChild :N-DzkcAagB81tgT15Np1xhXihyUnH ,
+		:N-VwIj3cmDbcxdDek4bwKF0WJonPX ,
+		:N-0hQJf7KNPOudiREdpChpPRvrLef .
+
+:N-DzkcAagB81tgT15Np1xhXihyUnH
+	dcterms:modified "2025-07-08T17:04:52.126Z" ;
+	pig:hasElement :R-fn2kURwUacSnQukjzY7R85MaGp4 ;
+	pig:hasChild :N-D3g7NVPIBgJh67jhHbDgMi7U7pM .
+
+:N-D3g7NVPIBgJh67jhHbDgMi7U7pM
+	dcterms:modified "2025-07-08T17:04:56.706Z" ;
+	pig:hasElement :R-EJHGNB1bJiG8JrAvjC248aD8l9q .
+
+:N-VwIj3cmDbcxdDek4bwKF0WJonPX
+	dcterms:modified "2025-07-08T17:05:56.733Z" ;
+	pig:hasElement :R-nz5BukDj9QIchIjNNXGyme2nBLe ;
+	pig:hasChild :N-IhrmhlN7WJidWLye4fNpkOQjdKj ,
+		:N-wKcls1SwFg8GHwjxOYG51DUNUck .
+
+:N-IhrmhlN7WJidWLye4fNpkOQjdKj
+	dcterms:modified "2025-07-08T17:05:56.733Z" ;
+	pig:hasElement :R-cDYKFGyAvwVsSmBbdKuPgWm6Wyj .
+
+:N-wKcls1SwFg8GHwjxOYG51DUNUck
+	dcterms:modified "2025-07-09T16:10:01.451Z" ;
+	pig:hasElement :R-2snNk3wXKoehqACXhxmCuSXymHq .
+
+:N-0hQJf7KNPOudiREdpChpPRvrLef
+	dcterms:modified "2025-07-08T17:06:02.486Z" ;
+	pig:hasElement :R-jrm9qxsQCKcRUAfMawbf5Ncyv7P ;
+	pig:hasChild :N-NQQPRAvINT7c64jLoMnrizPoWM1 ,
+		:N-i9SXmX1a8AAdAq2NsU3IJCzoNgp .
+
+:N-NQQPRAvINT7c64jLoMnrizPoWM1
+	dcterms:modified "2025-07-08T17:06:02.486Z" ;
+	pig:hasElement :R-IwsKLmahie4Fz8v8hFtNkDQPxy9 .
+
+:N-i9SXmX1a8AAdAq2NsU3IJCzoNgp
+	dcterms:modified "2025-07-09T16:02:13.896Z" ;
+	pig:hasElement :R-Ju1ptHJPPutY1344eEA2xZKhRKM .
