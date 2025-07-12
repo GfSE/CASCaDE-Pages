@@ -20,12 +20,15 @@ nav_order: 960
 1. OMG: <a href="https://www.omg.org/spec/SysML/1.6/PDF" target="_blank">System Modeling Language® (OMG SysML®) Version 1.6</a>
 1. <a href="https://basic-formal-ontology.org/bfo-2020.html" target="_blank">Basic Formal Ontology (BFO) 2020</a>
 1. OAGi/IOF: <a href="https://oagi.org/pages/industrial-ontologies" target="_blank">Industrial Ontologies Foundry</a>
+1. ITSI: <a href="https://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.02.01_60/gs_CIM006v010201p.pdf" target="_blank">Context Information Management (CIM); NGSI-LD Information Model</a>, 2023.
+1. Netflix: <a href="https://netflixtechblog.com/uda-unified-data-architecture-6a6aee261d8d" target="_blank">Model Once, Represent Everywhere: UDA (Unified Data Architecture) at Netflix</a>, Netflix Technology Blog, 2025.
 1. FMC Home: <a href="http://fmc-modeling.org/" target="_blank">Fundamental Modeling Concepts</a>
 1. Weilkiens, Tim: <a href="https://dpunkt.de/produkt/systems-engineering-mit-sysml-uml/" target="_blank">Systems Engineering mit SysML/UML</a>, dpunkt.verlag, 2014, ISBN Print: 978-3-86490-091-4
 1. Weilkiens, Tim: <a href="https://mbse4u.com/sysmod/" target="_blank">SYSMOD – Pragmatic MBSE with SysML</a>, MBSE4U Booklet Series
 1. Alt, Oliver: <a href="https://www.hanser-fachbuch.de/fachbuch/artikel/9783446431270" target="_blank">Modellbasierte Systementwicklung mit SysML</a>, Hanser Verlag, 2012, ISBN Print 978-3-446-43127-0
-1. Hitzler, Pascal; Krötzsch, Markus; Rudolph, Sebastian: <a href="" target="_blank">Foundations of Semantic Web Technologies</a>, Chapman & Hall/CRC, 2009, ISBN 9781420090505
-1. Heath, Tom; Bizer, Christian: <a href="" target="_blank">Linked Data - Evolving the Web into a Global Data Space</a>, Springer Verlag, 2011, ISBN Print 978-3-031-79431-5
+1. Vogt, Lars; Kuhn, Tobias; Hoehndorf, Robert: <a href="https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-024-00310-5" target="_blank">Semantic units: organizing knowledge graphs into semantically meaningful units of representation</a>, <a href="https://jbiomedsem.biomedcentral.com/" target="_blank">Journal of Biomedical Semantics</a>, 2024.
+1. Hitzler, Pascal; Krötzsch, Markus; Rudolph, Sebastian: <a href="https://www.semantic-web-book.org/" target="_blank">Foundations of Semantic Web Technologies</a>, Chapman & Hall/CRC, 2009, ISBN 9781420090505
+1. Heath, Tom; Bizer, Christian: <a href="http://linkeddatabook.com/editions/1.0/" target="_blank">Linked Data - Evolving the Web into a Global Data Space</a>, Springer Verlag, 2011, ISBN Print 978-3-031-79431-5
 1. Knöpfel, Andreas; Gröne, Bernhard; Tabeling, Peter: <a href="https://www.wiley.com/en-ie/Fundamental+Modeling+Concepts%3A+Effective+Communication+of+IT+Systems-p-9780470027103" target="_blank">Fundamental Modeling Concepts: Effective Communication of IT Systems</a>, Wiley 2006.
 1. Angles, Renzo; et al.: <a href="https://dl.acm.org/doi/abs/10.1145/3589778" target="_blank">PG-Schema: Schemas for Property Graphs</a>, 2024, DOI: <a href="https://doi.org/10.1145/3589778" target="_blank">10.1145/3589778</a>
 1. Szeremeta, Łukasz; Tomaszuk, Dominik; Angles, Renzo: <a href="https://www.researchgate.net/publication/380813134_YARS-PG_Property_Graphs_Representation_for_Publication_and_Exchange" target="_blank">YARS-PG: Property Graphs Representation for Publication and Exchange</a>, 2024, DOI: 10.1109/ACCESS.2024.3403924
