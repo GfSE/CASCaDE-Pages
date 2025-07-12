@@ -17,3 +17,4 @@ vendor/
 # Ignore VisualStudio files
 .vs
 
+/examples/data/Classes-for-PIG-Ontology.specif
