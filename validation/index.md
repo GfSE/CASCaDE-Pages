@@ -32,4 +32,4 @@ A simple example showing the process of an ontology-based application:
 2. Managing application data, here the libraries with their books and authors, 
 3. Using the application data, for example querying the books available in a given library.
 
-A [process description](./libraries/index.html) is given with links to web editors and the example data.
+A [3-step process](./examples/index.html) is described with links to web editors and the example data.
