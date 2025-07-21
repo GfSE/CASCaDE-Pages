@@ -7,14 +7,14 @@ nav_order: 30
 
 # Validation
 
-The concept for validating the standard to submit is proposed [here](https://github.com/GfSE/CASCaDE-Pages/validation/process/). [Discussion and suggestions](https://github.com/GfSE/CASCaDE-Pages/discussions/5) are welcome!
+The concept for validating the standard to submit is proposed [here](./process/). [Discussion and suggestions](https://github.com/GfSE/CASCaDE-Pages/discussions/5) are welcome!
 
 
 # Examples
 
 ## Small Examples Transformed to JSON-LD, RDF/Turtle and HTML
 
-The following examples demonstrate how data according to the [Product Information Graph (PIG)](https://cascade.gfse.org/results/Latest%20Metamodel/) looks like. The metamodel as well as the transformations are under construction, thus subject to change. We ask you to scrutinize the approach and to make suggestions!
+The following examples demonstrate how data according to the [Product Information Graph (PIG)](../results/Latest%20Metamodel/) looks like. The metamodel as well as the transformations are under construction, thus subject to change. We ask you to scrutinize the approach and to make suggestions!
 
 | Online Demo | Data |
 | --- | --- |
