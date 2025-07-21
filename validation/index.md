@@ -1,9 +1,13 @@
 ---
-title: Examples
+title: Validation and Examples
 layout: default
 parent: "Home"
 nav_order: 30
 ---
+
+# Validation
+
+The concept for validating the standard to submit is proposed [here](https://github.com/GfSE/CASCaDE-Pages/validation/process/). [Discussion and suggestions](https://github.com/GfSE/CASCaDE-Pages/discussions/5) are welcome!
 
 
 # Examples
