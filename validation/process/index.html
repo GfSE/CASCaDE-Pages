@@ -1,1 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous" /><link rel="stylesheet" type="text/css" href="./Styles/styles.css" /><title>PIG Validation</title></head><body><div class="container max-width-lg" ><div class="row" ><div class="col-12" ><div class="title">PIG Validation</div></div></div><div class="row" ><div class="col-12 col-md-3" ><h3 style="margin-top:2.4rem;">Content</h3><ul><li><a href="#H-ArchiMate-53122845">PIG Validation</a></li><ul><li><a href="#N--1446217915">Model Diagrams</a></li></ul><li><a href="#N-FolderGlossary-10053122845">Model Elements (Glossary)</a></li></ul></div><div class="col-12 col-md-9" ><h1 id="H-ArchiMate-53122845">PIG Validation</h1><p>The model gives an overview of the use-cases. This model is authored with <a href="https://www.archimatetool.com/">Archi</a> using the ArchiMate 3.2 notation, then transformed to <a href="https://specif.de">SpecIF</a> via ArchiMate Open Exchange file format and then transformed to HTML. The PIG App will support a similar workflow (among others) for the source data formats chosen.</p><p><a href="https://cascade.gfse.org">CASCaDE</a> is a project to standardize collaboration in systems engineering with respect to data format and ontology. A <a href="https://www.omg.org/cgi-bin/doc?mantis/24-12-03.pdf">Request for Proposal (RFP)</a> has been accepted by OMG in December 2024. Information in different formats and from diverse sources are transformed and integrated to a common knowledge graph.</p><p>A publicly available reference implementation shall validate the concepts of the standard as developed by the CASCaDE submission team. Validation is successful, if real-world data is ingested and the information needs of all users in the product lifecycle are met. Users and software vendors are given the opportunity to influence the project to assure their ideas are taken aboard. A joint effort on fundamental features (where differentiation isn&#39;t possible anyways) avoids duplicate work, improves quality and assures interoperability.</p><h2 id="N--1446217915">Model Diagrams</h2><h3 id="N-353613390">▣&#160;&#160;Validation Workflow</h3><p>A process to validate the conceptional and technical choices made by the standard in preparation. This is preliminary and needs further discussion and detailing with the target users. Ultimately, the standard must satisfy their use-cases and needs in general.</p><p>Subject to validation:</p><ul><li>Has the <a href="https://cascade.gfse.org/results/Latest%20Metamodel/">PIG metamodel</a> enough expressive power to deal with real-world data?</li><li>Can the data be transformed between RDF/Turtle, JSON-LD and GQL without loss? In all directions and in a full round-trip?</li><li>Are the transformation results consistent, complete, comprehensible and finally useful?</li><li>Can the user&#39;s &#39;competency questions&#39; be satisfactorily answered?</li></ul><p><img src="./Images/F-1845497690.png" style="max-width:100%" alt="Validation Workflow.png" /></p><h1 id="N-FolderGlossary-10053122845">Model Elements (Glossary)</h1><h3 id="N-11117650302">&#x25A1;&#160;&#160;Apply Competency Question</h3><p>Once transformed to RDF/Turtle, still according to the PIG metamodel, user-defined competency questions shall be applied to the test-data. Those queries shall validate that the graph fulfills the information needs of the various user roles accessing the data. An important criterion is that the same (i.e. <em>standard</em>) queries yield the desired results with different data sets. Only then, normalization with repsect to syntax and semantics is successful. It is expected, however, that the competency questions, the queried, depend on the ontology with the the current set of <em>preferred terms</em>.</p><h3 id="N-11863653636">&#x25CB;&#160;&#160;Business Use-Case</h3><p>A set of use-cases describing the user&#39;s need. Must be exemplary (concrete), relevant and representative.</p><h3 id="N-8248320296">&#x25A1;&#160;&#160;CASCaDE Validation Process</h3><h3 id="N-9409445317">&#x25A1;&#160;&#160;Check Schema, Consistency and Completeness</h3><p>Once transformed according to the PIG metamodel, the data shall be checked with respect to schema (shape, format), consistency (constraints) and completeness. Both formally and by expert inspection.</p><h3 id="N-8618890478">&#x25A1;&#160;&#160;Create Test-Data</h3><p>Create test-data in original format as produced by popular authoring systems of the domain, for example IBM DOORS for requirement management or Cameo for systems engineering.</p><p>Initially, test-data should be small and cover relevant and typical aspects of the domain to drive and validate the development of transformations. Later on, real or near-real project data &#39;from the field&#39; with growing complexity should be supplied.</p><h3 id="N-11802892691">&#x25A1;&#160;&#160;File System</h3><p>A network file system. Consider to use</p><ul><li>Windows/MacOS/Linux NFS</li><li>Samba</li><li>Git</li></ul><h3 id="N-8583794264">&#x25A1;&#160;&#160;Original Authoring System</h3><h3 id="N-10373993524">&#x25A1;&#160;&#160;PIG App</h3><p>A web application for creating, reading, updating and deleting data elements per class. The app is configured by the classes loaded at initialization time. The classes govern the choice and the dialog layout for modifying the data. Thus, the same software is used for more or less complex applications.</p><h3 id="N-8429901407">&#x25CB;&#160;&#160;Sink Data</h3><h3 id="N-10709804402">&#x25CB;&#160;&#160;Source Data</h3><h3 id="N-10598076715">&#x25CB;&#160;&#160;Test Data [Original]</h3><h3 id="N-9862198495">&#x25CB;&#160;&#160;Test Data [RDF]</h3><h3 id="N-9356671768">&#x25A1;&#160;&#160;Triple-Store</h3><p>A standard database for knowledge graphs, e.g. Apache Fuseki.</p></div></div></div></body></html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" crossorigin="anonymous"/>
+		<link rel="stylesheet" type="text/css" href="./Styles/styles.css"/>
+		<title>PIG Validation</title>
+	</head>
+	<body>
+		<div class="container max-width-lg">
+			<div class="row">
+				<div class="col-12">
+					<div class="title">PIG Validation</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<h3 style="margin-top:2.4rem;">Content</h3>
+					<ul>
+						<li>
+							<a href="#H-ArchiMate-53122845">PIG Validation</a>
+						</li>
+						<ul>
+							<li>
+								<a href="#N--1446217915">Model Diagrams</a>
+							</li>
+						</ul>
+						<li>
+							<a href="#N-FolderGlossary-10053122845">Model Elements (Glossary)</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-9">
+					<h1 id="H-ArchiMate-53122845">PIG Validation</h1>
+					<p>The model shows a concept to validate the upcoming standard. </p>
+					<p>
+						<a href="https://cascade.gfse.org">CASCaDE</a> is a project to standardize collaboration in systems engineering with respect to data format and ontology. A <a href="https://www.omg.org/cgi-bin/doc?mantis/24-12-03.pdf">Request for Proposal (RFP)</a> has been accepted by OMG in December 2024. Information in different formats and from diverse sources are transformed and integrated to a common knowledge graph.</p>
+					<p>A publicly available reference implementation shall validate the concepts of the standard as developed by the CASCaDE submission team. Validation is successful, if real-world data is ingested and the information needs of all users in the product lifecycle are met. Users and software vendors are given the opportunity to influence the project to assure their ideas are taken aboard. A joint effort on fundamental features (where differentiation isn&#39;t possible anyways) avoids duplicate work, improves quality and assures interoperability.</p>
+					<h2 id="N--1446217915">Model Diagrams</h2>
+					<h3 id="N-353613390">▣&#160;&#160;Validation Workflow</h3>
+					<p>A process to validate the conceptional and technical choices made by the standard in preparation. This is preliminary and needs further discussion and detailing with the target users. Ultimately, the standard must satisfy their use-cases and needs in general.</p>
+					<p>Subject to validation:</p>
+					<ul>
+						<li>Has the <a href="https://cascade.gfse.org/results/Latest%20Metamodel/">PIG metamodel</a> enough expressive power to deal with real-world data?</li>
+						<li>Can the data be transformed between RDF/Turtle, JSON-LD and GQL without loss? In all directions and in a full round-trip?</li>
+						<li>Are the transformation results consistent, complete, comprehensible and finally useful?</li>
+						<li>Can the user&#39;s &#39;competency questions&#39; be satisfactorily answered?</li>
+					</ul>
+					<p>This model is authored with <a href="https://www.archimatetool.com/">Archi</a> using the ArchiMate 3.2 notation, then transformed to <a href="https://specif.de">SpecIF</a> via ArchiMate Open Exchange file format and then transformed to HTML. The PIG App will support a similar workflow (among others) for the source data formats chosen.</p>
+					<p>
+						<img src="./Images/F-1845497690.png" style="max-width:100%" alt="Validation Workflow.png"/>
+					</p>
+					<h1 id="N-FolderGlossary-10053122845">Model Elements (Glossary)</h1>
+					<h3 id="N-11117650302">&#x25A1;&#160;&#160;Apply Competency Question</h3>
+					<p>Once transformed to RDF/Turtle, still according to the PIG metamodel, user-defined competency questions shall be applied to the test-data. Those queries shall validate that the graph fulfills the information needs of the various user roles accessing the data. An important criterion is that the same (i.e. <em>standard</em>) queries yield the desired results with different data sets. Only then, normalization with repsect to syntax and semantics is successful. It is expected, however, that the competency questions, the queried, depend on the ontology with the the current set of <em>preferred terms</em>.</p>
+					<h3 id="N-11863653636">&#x25CB;&#160;&#160;Business Use-Case</h3>
+					<p>A set of use-cases describing the user&#39;s need. Must be exemplary (concrete), relevant and representative.</p>
+					<h3 id="N-8248320296">&#x25A1;&#160;&#160;CASCaDE Validation Process</h3>
+					<h3 id="N-9409445317">&#x25A1;&#160;&#160;Check Schema, Consistency and Completeness</h3>
+					<p>Once transformed according to the PIG metamodel, the data shall be checked with respect to schema (shape, format), consistency (constraints) and completeness. Both formally and by expert inspection.</p>
+					<h3 id="N-8618890478">&#x25A1;&#160;&#160;Create Test-Data</h3>
+					<p>Create test-data in original format as produced by popular authoring systems of the domain, for example IBM DOORS for requirement management or Cameo for systems engineering.</p>
+					<p>Initially, test-data should be small and cover relevant and typical aspects of the domain to drive and validate the development of transformations. Later on, real or near-real project data &#39;from the field&#39; with growing complexity should be supplied.</p>
+					<h3 id="N-11802892691">&#x25A1;&#160;&#160;File System</h3>
+					<p>A network file system. Consider to use</p>
+					<ul>
+						<li>Windows/MacOS/Linux NFS</li>
+						<li>Samba</li>
+						<li>Git</li>
+					</ul>
+					<h3 id="N-8583794264">&#x25A1;&#160;&#160;Original Authoring System</h3>
+					<h3 id="N-10373993524">&#x25A1;&#160;&#160;PIG App</h3>
+					<p>A web application for creating, reading, updating and deleting data elements per class. The app is configured by the classes loaded at initialization time. The classes govern the choice and the dialog layout for modifying the data. Thus, the same software is used for more or less complex applications.</p>
+					<h3 id="N-8429901407">&#x25CB;&#160;&#160;Sink Data</h3>
+					<h3 id="N-10709804402">&#x25CB;&#160;&#160;Source Data</h3>
+					<h3 id="N-10598076715">&#x25CB;&#160;&#160;Test Data [Original]</h3>
+					<h3 id="N-9862198495">&#x25CB;&#160;&#160;Test Data [RDF]</h3>
+					<h3 id="N-9356671768">&#x25A1;&#160;&#160;Triple-Store</h3>
+					<p>A standard database for knowledge graphs, e.g. Apache Fuseki.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
