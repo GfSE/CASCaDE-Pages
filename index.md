@@ -9,9 +9,11 @@ nav_order: 0
 
 ## In a Nutshell
 
-The objective of CASCaDE (Collaborative Artifact, Specification, Context and Data Exchange) is to facilitate collaboration in the product lifecycle from conception to retirement. 
-Standardize such collaboration in terms of data format and ontology. 
-Submit a standard candidate at OMG.
+CASCaDE (Collaborative Artifact, Specification, Context and Data Exchange) shall facilitate collaboration in the product lifecycle from conception to retirement. 
+Collaboration is standardized in terms of data format and ontology. 
+Product data from different sources is combined to a common knowledge graph where standard queries can be applied. 
+Useful product information is not only provided for users, but also for exchange between machines including machine learning and artificial intelligence.
+Objective is to submit a standard candidate at OMG.
 
 The "Digital Data Package" (<a href="https://www.prostep.org/shop/detail?ai[action]=detail&ai[controller]=Catalog&ai[d_name]=ddp_rec">DDP</a>) from Prostep iViP e.V.,
 "Specification Integration Facility" (<a href="https://specif.de">SpecIF</a>) from GfSE e.V. 
