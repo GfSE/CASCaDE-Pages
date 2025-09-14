@@ -46,10 +46,11 @@
 						<li>For clarity, any attributes of the concepts are omitted from the diagram.</li>
 					</ul>
 					<p>
-						<em>Note: This class diagram may indeed cause confusion: The concrete classes and the named associations contribute to the semantics of the ontology, whereas the abstract classes and the UML:Generalization are construction aids to simplify the diagram. Thus, an UML:Generalization indicates that all attributes and named associations apply to all of the subordinated classes, whereas associations of type pig</em>specializesX indicate that one concept is a specialization of another.*</p>
+						<em>Note: This class diagram may indeed cause confusion: The concrete classes and the named associations contribute to the semantics of the ontology, whereas the abstract classes and the UML:Generalization are construction aids to simplify the diagram. Thus, an UML:Generalization indicates that all attributes and named associations apply to all of the subordinated classes, whereas associations of type pig:specializesX indicate that one concept is a specialization of another.</em>
+					</p>
 					<p>Data according to this information model (thus an ontology defined with the classes of the ontology language shown here) can be used to generate the ontology classes in the upper part of the <a href="#N-10688368364">pig Metamodel Diagram</a>:</p>
 					<ul>
-						<li>A concrete concept becomes a class pig:Entity and an association becomes a class pig:Relationship.</li>
+						<li>A concrete concept (an instantiation of a shown class) becomes a class pig:Entity and an association (an instantion of a shown association) becomes a class pig:Relationship.</li>
 						<li>For this purpose the concepts shown here must have certain attributes (which are not shown yet) to generate the details needed.</li>
 					</ul>
 					<p>In addition, this information model can be implemented with the pig metamodel. Thus, the same software can be used to edit the ontology based on this ontology language which is used to manage the application data later on:</p>
