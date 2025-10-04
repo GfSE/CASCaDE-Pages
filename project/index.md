@@ -247,28 +247,61 @@ Organizations contributing to the effort will form a Product Owner Committee (PO
 and reviewing the results per iteration ("sprint").
 
 <table>
-<thead>
-<tr>
-<th>Organization</th><th>POC Member</th><th>Roles</th><th>2025</th><th>2026</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://enso-managers.de" target="_blank">enso managers GmbH, Berlin</a></td><td>Oskar v.Dungern</td><td>Software Architect, Product Owner</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">0.4 FTE</td>
-</tr>
-<tr>
-<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>John M.Alletto</td><td>Software Architect, Product Owner, Software Developer</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
-</tr>
-<tr>
-<td>SE-TREC GmbH</td><td>Rüdiger Kaffenberger</td><td>Sponsor</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">tbd</td>
-</tr>
-<tr>
-<td><a href="https://kr.uc3m.es/" target="_blank">Knowledge Reuse Research Group, Department of Computer Science and Engineering, Carlos III University of Madrid</td><td>Jose María Alvarez Rodríguez</td><td>Sponsor</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
-</tr>
-<tr>
-<td></td><td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
-</tr>
-</tbody>
+	<thead>
+		<tr>
+			<th>Organization</th>
+			<th>POC Member</th>
+			<th>Roles</th>
+			<th>2025</th>
+			<th>2026</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<a href="https://enso-managers.de"
+				   target="_blank">enso managers GmbH, Berlin</a>
+			</td>
+			<td>Oskar v.Dungern</td>
+			<td>Product Owner, Software Architect</td>
+			<td style="text-align: center;">0.4 FTE</td>
+			<td style="text-align: center;">0.4 FTE</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://psg-inc.net/"
+				   target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a>
+			</td>
+			<td>John M.Alletto</td>
+			<td>Product Owner, Software Architect, Software Developer</td>
+			<td style="text-align: center;">tbd</td>
+			<td style="text-align: center;">tbd</td>
+		</tr>
+		<tr>
+			<td>SE-TREC GmbH</td>
+			<td>Rüdiger Kaffenberger</td>
+			<td>Product Owner, Sponsor</td>
+			<td style="text-align: center;">0.4 FTE</td>
+			<td style="text-align: center;">tbd</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://kr.uc3m.es/"
+				   target="_blank">Knowledge Reuse Research Group, Department of Computer Science and Engineering, Carlos III University of Madrid</a>
+			</td>
+			<td>Jose María Alvarez Rodríguez</td>
+			<td>Product Owner, Software Architect, Software Developer</td>
+			<td style="text-align: center;">tbd</td>
+			<td style="text-align: center;">tbd</td>
+		</tr>
+		<tr>
+			<td/>
+			<td/>
+			<td/>
+			<td style="text-align: center;"/>
+			<td style="text-align: center;"/>
+		</tr>
+	</tbody>
 </table>
 
 <div style="float: left; max-width:140px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
