@@ -254,13 +254,16 @@ and reviewing the results per iteration ("sprint").
 </thead>
 <tbody>
 <tr>
-<td><a href="https://enso-managers.de" target="_blank">enso managers GmbH, Berlin</a></td><td>O.v.Dungern</td><td>Software Architect, Product Owner</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">0.4 FTE</td>
+<td><a href="https://enso-managers.de" target="_blank">enso managers GmbH, Berlin</a></td><td>Oskar v.Dungern</td><td>Software Architect, Product Owner</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">0.4 FTE</td>
 </tr>
 <tr>
-<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>J.M.Alletto</td><td>Software Architect, Product Owner, Software Developer</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
+<td><a href="https://psg-inc.net/" target="_blank">Prime Solutions Group, Inc., Goodyear AZ</a></td><td>John M.Alletto</td><td>Software Architect, Product Owner, Software Developer</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
-<td>SE-TREC GmbH</td><td>R.Kaffenberger</td><td>Sponsor</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">tbd</td>
+<td>SE-TREC GmbH</td><td>Rüdiger Kaffenberger</td><td>Sponsor</td><td style="text-align: center;">0.4 FTE</td><td style="text-align: center;">tbd</td>
+</tr>
+<tr>
+<td><a href="https://kr.uc3m.es/" target="_blank">Knowledge Reuse Research Group, Department of Computer Science and Engineering, Carlos III University of Madrid</td><td>Jose María Alvarez Rodríguez</td><td>Sponsor</td><td style="text-align: center;">tbd</td><td style="text-align: center;">tbd</td>
 </tr>
 <tr>
 <td></td><td></td><td></td><td style="text-align: center;"></td><td style="text-align: center;"></td>
@@ -271,6 +274,7 @@ and reviewing the results per iteration ("sprint").
 <div style="float: left; max-width:140px"><a href="https://enso-managers.de" target="_blank"><img src="https://enso-managers.de/assets/logos/enso-m-logo+text-transparent-600x150.png" /></a></div>
 <div style="float: left; max-width:140px"><a href="https://psg-inc.net/" target="_blank"><img src="../assets/logos/logo-psg.jpg" /></a></div>
 <div style="float: left; max-width:70px"><img src="../assets/logos/SE-TREC-Logo.png" /></div>
+<div style="float: left; max-width:140px"><a href="https://kr.uc3m.es/" target="_blank"><img src="../assets/logos/uc3m.jpg" /></a></div>
 <div style="clear:both"></div>
 
 ## Why Open Source ?
