@@ -278,7 +278,7 @@ and reviewing the results per iteration ("sprint").
 			<td style="text-align: center;">tbd</td>
 		</tr>
 		<tr>
-			<td>SE-TREC GmbH</td>
+			<td>SE-TREC GmbH, Bremen</td>
 			<td>Rüdiger Kaffenberger</td>
 			<td>Product Owner, Sponsor</td>
 			<td style="text-align: center;">0.4 FTE</td>
