@@ -82,8 +82,8 @@ Generally speaking, four _collaboration modes_ can be identified, which include 
 Organizations primarily in regulated industries need to archive engineering data at least for the lifetime of a product, 
 which may last many decades. Data requires a standardized format and ontology without the need for special software.
 
-<img src="./assets/images/Longterm-Archiving.png" alt="Longterm Archiving" height="100" />
-_Fig.3: Collaboration Mode 1: Longterm Archiving_
+<img src="./assets/images/Longterm-Archiving.png" alt="Longterm Archiving" height="80" /><br />
+_Fig.3: Longterm Archiving_
 
 **Collaboration Mode 1: Traditional File Transfer**
 
@@ -117,7 +117,7 @@ In the most advanced scenario, each partner retains full control of her or his d
 interest. Dataspaces with distributed databases are created for transaction processing. A partner‘s package may be part of 
 multiple dataspaces.
 
-<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" height="80" /><br />
+<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" height="160" /><br />
 _Fig.7: Collaboration Mode 4: Federated Dataspace_
 
 **Example: Boeing Levels of Collaboration**
