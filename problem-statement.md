@@ -78,6 +78,7 @@ terms of BPMN, collaborating participants.
 Generally speaking, four _collaboration modes_ can be identified, which include the Boeing _collaboration levels_.
 
 **Longterm Archiving**
+
 Organizations primarily in regulated industries need to archive engineering data at least for the lifetime of a product, 
 which may last many decades. Data requires a standardized format and ontology without the need for special software.
 
@@ -85,34 +86,38 @@ which may last many decades. Data requires a standardized format and ontology wi
 _Fig.3: Collaboration Mode 1: Longterm Archiving_
 
 **Collaboration Mode 1: Traditional File Transfer**
+
 Some organizations resist permitting access to their IT infrastructure to others and prefer to exchange selected 
 information by file. In Collaboration Mode 1 partners operate on separate databases and synchronize their data 
 periodically.
 
-<img src="./assets/images/Collaboration-Mode-1.png" alt="Collaboration-Mode-1" height="100" />
+<img src="./assets/images/Collaboration-Mode-1.png" alt="Collaboration-Mode-1" height="80" /><br />
 _Fig.4: Collaboration Mode 1: Traditional File Transfer_
 
 **Collaboration Mode 2: Private Hub**
+
 In collaboration mode 2 one of the partners offers a common database for synchronous transaction processing. The 
 remote partner receives permission to access the data of interest usually differentiated for create, read, update or delete 
 operations.
 
-<img src="./assets/images/Collaboration-Mode-2.png" alt="Collaboration-Mode-2" height="100" />
+<img src="./assets/images/Collaboration-Mode-2.png" alt="Collaboration-Mode-2" height="80" /><br />
 _Fig.5: Collaboration Mode 2: Private Hub_
 
 **Collaboration Mode 3: Public Hub**
+
 Collaboration Mode 3 is very similar to the previous scenario, except that a common database operated by a third party 
 („SaaS“) is used.
 
-<img src="./assets/images/Collaboration-Mode-3a.png" alt="Collaboration-Mode-3" height="100" />
+<img src="./assets/images/Collaboration-Mode-3a.png" alt="Collaboration-Mode-3" height="80" /><br />
 _Fig.6: Collaboration Mode 2: Public Hub_
 
 **Collaboration Mode 4: Federated Dataspace**
+
 In the most advanced scenario, each partner retains full control of her or his data and permits others to access to data of 
 interest. Dataspaces with distributed databases are created for transaction processing. A partner‘s package may be part of 
 multiple dataspaces.
 
-<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" height="100" />
+<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" height="80" /><br />
 _Fig.7: Collaboration Mode 4: Federated Dataspace_
 
 **Example: Boeing Levels of Collaboration**
