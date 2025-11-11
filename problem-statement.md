@@ -71,39 +71,49 @@ appears in different data sets, making it difficult to propagate changes or even
 detect dependencies. Therefore, a translation of individual data sets and 
 integration to an overarching Knowledge Graph is required.
 
-## Collaboration Modes
+## Scenarios
 
 Finally, there are different ways of interaction between organizations or, in 
 terms of BPMN, collaborating participants. 
 Generally speaking, four _collaboration modes_ can be identified, which include the Boeing _collaboration levels_.
 
-**Collaboration Mode 1: Traditional File Transfer**
-- Partners operate on separate databases 
-- Synchronization needed
+**Longterm Archiving**
+Organizations primarily in regulated industries need to archive engineering data at least for the lifetime of a product, 
+which may last many decades. Data requires a standardized format and ontology without the need for special software.
 
-<img src="./assets/images/Collaboration-Mode-1.png" alt="Collaboration-Mode-1" />
-_Fig.3: Collaboration Mode 1: Traditional File Transfer_
+<img src="./assets/images/Longterm-Archiving.png" alt="Longterm Archiving" height="100" />
+_Fig.3: Collaboration Mode 1: Longterm Archiving_
+
+**Collaboration Mode 1: Traditional File Transfer**
+Some organizations resist permitting access to their IT infrastructure to others and prefer to exchange selected 
+information by file. In Collaboration Mode 1 partners operate on separate databases and synchronize their data 
+periodically.
+
+<img src="./assets/images/Collaboration-Mode-1.png" alt="Collaboration-Mode-1" height="100" />
+_Fig.4: Collaboration Mode 1: Traditional File Transfer_
 
 **Collaboration Mode 2: Private Hub**
-- Transaction Processing on common database
-- operated by one of the participants
+In collaboration mode 2 one of the partners offers a common database for synchronous transaction processing. The 
+remote partner receives permission to access the data of interest usually differentiated for create, read, update or delete 
+operations.
 
-<img src="./assets/images/Collaboration-Mode-2.png" alt="Collaboration-Mode-2" />
-_Fig.4: Collaboration Mode 2: Private Hub_
+<img src="./assets/images/Collaboration-Mode-2.png" alt="Collaboration-Mode-2" height="100" />
+_Fig.5: Collaboration Mode 2: Private Hub_
 
 **Collaboration Mode 3: Public Hub**
-- Transaction Processing on common database
-- operated by a third party („SaaS“)
+Collaboration Mode 3 is very similar to the previous scenario, except that a common database operated by a third party 
+(„SaaS“) is used.
 
-<img src="./assets/images/Collaboration-Mode-3a.png" alt="Collaboration-Mode-3" />
-_Fig.5: Collaboration Mode 2: Public Hub_
+<img src="./assets/images/Collaboration-Mode-3a.png" alt="Collaboration-Mode-3" height="100" />
+_Fig.6: Collaboration Mode 2: Public Hub_
 
 **Collaboration Mode 4: Federated Dataspace**
-- Transaction Processing on multiple distributed databases where each partner has full control over the access rights to her/his data
-- A partner‘s package may be part of multiple dataspaces
+In the most advanced scenario, each partner retains full control of her or his data and permits others to access to data of 
+interest. Dataspaces with distributed databases are created for transaction processing. A partner‘s package may be part of 
+multiple dataspaces.
 
-<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" />
-_Fig.6: Collaboration Mode 4: Federated Dataspace_
+<img src="./assets/images/Collaboration-Mode-4.png" alt="Collaboration-Mode-4" height="100" />
+_Fig.7: Collaboration Mode 4: Federated Dataspace_
 
 **Example: Boeing Levels of Collaboration**
 
@@ -111,7 +121,7 @@ Boeing for example defines four levels of collaboration in their Supplier Enable
 as shown in Fig.7.
 
 <img src="./assets/images/Boeing-Collaboration-Levels.png" alt="Boeing-Collaboration-Levels" />
-_Fig.7: Boeing defines four levels of collaboration using a “Technical Data Package” (TDP). Source: Boeing Inc._
+_Fig.8: Boeing defines four levels of collaboration using a “Technical Data Package” (TDP). Source: Boeing Inc._
 
 The four levels of collaboration are characterized as follows:
 
