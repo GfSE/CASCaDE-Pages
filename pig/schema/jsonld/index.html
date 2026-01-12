@@ -92,7 +92,7 @@
             color: #3498db;
         }
 
-        .badge {
+    <!--    .badge {
             display: inline-block;
             padding: 3px 8px;
             font-size: 0.75em;
@@ -115,7 +115,7 @@
         .badge.package {
             background: #e8f5e9;
             color: #2e7d32;
-        }
+        } -->
 
         .description {
             color: #7f8c8d;
@@ -178,50 +178,50 @@
 				<p>The schemata correspond to the <a href="https://cascade.gfse.org/results/Latest%20Metamodel/" target="_blank">PIG Metamodel</a>.</p>
 
                 <h3>PIG Metamodel Class Items</h3>
-				<p>The classes are derived from the ontology.</p>
+				<p>The classes are derived from the ontology; they must conform with the given schemata:</p>
                 <ul class="schema-list">
                     <li>
-                        <span class="badge class">Class</span>
+                        <!--<span class="badge class">Class</span>-->
                         <a href="Property.json">Property.json</a>
                         <div class="description">Validates Property class definitions with datatypes, constraints, and enumeration values</div>
                     </li>
                     <li>
-                        <span class="badge class">Class</span>
+                        <!--<span class="badge class">Class</span>-->
                         <a href="Link.json">Link.json</a>
                         <div class="description">Validates Link class definitions with eligible endpoints</div>
                     </li>
                     <li>
-                        <span class="badge class">Class</span>
+                        <!--<span class="badge class">Class</span>-->
                         <a href="Entity.json">Entity.json</a>
                         <div class="description">Validates Entity class definitions with eligible properties and target links</div>
                     </li>
                     <li>
-                        <span class="badge class">Class</span>
+                        <!--<span class="badge class">Class</span>-->
                         <a href="Relationship.json">Relationship.json</a>
                         <div class="description">Validates Relationship class definitions with source and target link specifications</div>
                     </li>
                 </ul>
 
                 <h3>PIG Metamodel Instance Items</h3>
-				<p>The instances of the classes above are the project data or 'payload'.</p>
+				<p>The instances of the classes above are the project data or 'payload'; they must conform with the given schemata:</p>
                 <ul class="schema-list">
                     <li>
-                        <span class="badge instance">Instance</span>
+                        <!--<span class="badge instance">Instance</span>-->
                         <a href="anEntity.json">anEntity.json</a>
                         <div class="description">Validates entity instances with configurable properties and target links</div>
                     </li>
                     <li>
-                        <span class="badge instance">Instance</span>
+                        <!--<span class="badge instance">Instance</span>-->
                         <a href="aRelationship.json">aRelationship.json</a>
                         <div class="description">Validates relationship instances with source/target links and properties</div>
                     </li>
                 </ul>
 
                 <h3>PIG Package Item</h3>
-				<p>A package holds a subset of the graph for a specific communication purpose such as customer-supplier agreement.</p>
+				<p>A package holds a subset of the graph for a specific communication purpose such as customer-supplier agreement; it must conform with the given schema:</p>
                 <ul class="schema-list">
                     <li>
-                        <span class="badge package">Package</span>
+                        <!--<span class="badge package">Package</span>-->
                         <a href="aPackage.json">aPackage.json</a>
                         <div class="description">Validates complete JSON-LD documents with @context and @graph</div>
                     </li>
