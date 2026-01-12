@@ -61,7 +61,7 @@ Proposal for agile project management:
 <td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Requirements Verification</a></td><td>Verificiation of the requirements as listed in the RFP</td><td class="blue">Submission Team (WP5)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/12" target="_blank">CASCaDE Specification</a></td><td>Development of operations as part of the standard</td><td class="blue">Submission Team (WP6)</td>
+<td><a href="https://github.com/orgs/GfSE/projects/12" target="_blank">CASCaDE Specification</a></td><td>Documentation of the standard with description and machine-readable resources</td><td class="blue">Submission Team (WP6)</td>
 </tr>
 <tr>
 <td><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></td><td>Reference implementation</td><td class="rose">Development Team</td>

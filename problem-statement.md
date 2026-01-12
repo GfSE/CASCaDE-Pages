@@ -113,7 +113,7 @@ _Fig.6: Collaboration Mode 2: Public Hub_
 
 **Collaboration Mode 4: Federated Dataspace**
 
-In the most advanced scenario, each partner retains full control of her or his data and permits others to access to data of 
+In the most advanced scenario, each partner retains full control of her or his data and permits others to access the data of 
 interest. Dataspaces with distributed databases are created for transaction processing. A partner‘s package may be part of 
 multiple dataspaces.
 
