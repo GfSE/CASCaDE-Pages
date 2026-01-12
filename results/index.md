@@ -12,8 +12,9 @@ nav_order: 90
 The last quarter's work on the 'Magic Tetrahedron' has been finalized. That is, we now have patterns for RDF/Turtle, JSON-LD
 and Javascript classes. The 'Magic Tetrahedron' describes the sweet spot, where a Knowledge Graph,
 a Property Graph and a data-structure in an object-oriented programming language are designed in a way that mutual transformations
-are easily possible. Of course, this means that the expressivity is reduced to certain patterns: Not any more OWL is the 
-ontology language, but a subset. This approach will be validated in the next step with (near to) real world scenarios and data.
+are easily possible. Of course, this means that the expressivity is reduced to a certain extent: Not any more OWL is the 
+ontology language, but a subset defined by certain shapes (patterns). 
+This approach will be validated in the next step with (near to) real world scenarios and data.
 
 The current proposal does not use a 1:1 transformation of RDF to JSON-LD as proposed by W3C. Instead of an essentially redundant
 representation, JSON-LD is used to best take advantage of its features, namely the power of JSON Schema and the mature 
