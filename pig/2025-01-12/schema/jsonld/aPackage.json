@@ -1,0 +1,195 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/aPackage.json",
+    "title": "PIG APackage JSON-LD Schema",
+    "description": "JSON-LD schema for validating complete PIG packages with @context and @graph containing all PIG items",
+    "type": "object",
+    "properties": {
+        "@context": {
+            "description": "JSON-LD context defining namespaces and vocabulary mappings",
+            "oneOf": [
+                {
+                    "type": "object",
+                    "description": "Context as object with namespace mappings"
+                },
+                {
+                    "type": "array",
+                    "description": "Context as array of contexts",
+                    "items": {
+                        "oneOf": [
+                            { "type": "object" },
+                            { "type": "string" }
+                        ]
+                    }
+                },
+                {
+                    "type": "string",
+                    "description": "Context as URL reference"
+                }
+            ]
+        },
+        "@graph": {
+            "type": "array",
+            "minItems": 0,
+            "description": "Array of PIG items (classes and instances)",
+            "items": {
+                "type": "object",
+                "required": [ "pig:itemType" ],
+                "properties": {
+                    "pig:itemType": {
+                        "type": "object",
+                        "required": [ "@id" ],
+                        "properties": {
+                            "@id": {
+                                "type": "string",
+                                "enum": [
+                                    "pig:Property",
+                                    "pig:Link",
+                                    "pig:Entity",
+                                    "pig:Relationship",
+                                    "pig:anEntity",
+                                    "pig:aRelationship"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "allOf": [
+                    {
+                        "if": {
+                            "properties": {
+                                "pig:itemType": {
+                                    "properties": {
+                                        "@id": { "const": "pig:anEntity" }
+                                    }
+                                }
+                            }
+                        },
+                        "then": {
+                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/anEntity.json"
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "pig:itemType": {
+                                    "properties": {
+                                        "@id": { "const": "pig:aRelationship" }
+                                    }
+                                }
+                            }
+                        },
+                        "then": {
+                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/aRelationship.json"
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "pig:itemType": {
+                                    "properties": {
+                                        "@id": { "const": "pig:Property" }
+                                    }
+                                }
+                            }
+                        },
+                        "then": {
+                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Property.json"
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "pig:itemType": {
+                                    "properties": {
+                                        "@id": { "const": "pig:Link" }
+                                    }
+                                }
+                            }
+                        },
+                        "then": {
+                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Link.json"
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "pig:itemType": {
+                                    "properties": {
+                                        "@id": { "const": "pig:Entity" }
+                                    }
+                                }
+                            }
+                        },
+                        "then": {
+                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Entity.json"
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "pig:itemType": {
+                                    "properties": {
+                                        "@id": { "const": "pig:Relationship" }
+                                    }
+                                }
+                            }
+                        },
+                        "then": {
+                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Relationship.json"
+                        }
+                    }
+                ]
+            }
+        },
+        "@id": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9_\\-]+:[^:\\s]+|https?:\\/\\/[^\\s]+)$",
+            "description": "Optional package identifier"
+        },
+        "dcterms:title": {
+            "type": "array",
+            "description": "Optional package title",
+            "items": {
+                "$ref": "#/$defs/languageValue"
+            }
+        },
+        "dcterms:description": {
+            "type": "array",
+            "description": "Optional package description",
+            "items": {
+                "$ref": "#/$defs/languageValue"
+            }
+        },
+        "dcterms:modified": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Optional package modification timestamp"
+        },
+        "dcterms:creator": {
+            "type": "string",
+            "description": "Optional package creator"
+        }
+    },
+    "required": [ "@context", "@graph" ],
+    "additionalProperties": true,
+    "$defs": {
+        "languageValue": {
+            "type": "object",
+            "required": [ "@value" ],
+            "properties": {
+                "@value": {
+                    "type": "string",
+                    "description": "The actual text content"
+                },
+                "@language": {
+                    "type": "string",
+                    "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+                    "description": "IETF language tag (e.g., 'en', 'de', 'en-US')"
+                }
+            },
+            "additionalProperties": false,
+            "description": "Multi-language text value with optional language tag"
+        }
+    }
+}

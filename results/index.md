@@ -22,7 +22,7 @@ multi-user operations of existing document databases. Rather than separate class
 Usually between 10 and 30 RDF tripels are combined to a single object facilitating transaction management and versioning. 
 The information content is exactly the same, but the respective strengths of the formats and their respective ecosystems are exploited.
 
-The schemata for all item types as defined by the metamodel are published [here](https://cascade.gfse.org/pig/schema/jsonld/).
+The schemata for all item types as defined by the metamodel are published [here](https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/).
 
 Example data is available in RDF/Turtle and JSON-LD formats. The classes in RDF have shapes defining the correct pattern of the instances/individuals, 
 i.e. the graph representing the unified product data.
