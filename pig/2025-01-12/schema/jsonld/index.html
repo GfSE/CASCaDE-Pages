@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Product Information Graph (PIG) JSON-LD Schema Repository">
     <meta name="author" content="GfSE - Gesellschaft für Systems Engineering e.V.">
-    <title>PIG JSON-LD Schemata</title>
+    <title>PIG JSON-LD Schemata | CASCaRA | GfSE</title>
     <style>
         * {
             margin: 0;
@@ -22,7 +22,7 @@
         }
 
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
             background: white;
             border-radius: 8px;
@@ -86,40 +86,24 @@
             text-decoration: none;
             font-weight: 500;
             display: block;
+            font-size: 1.1em;
         }
 
         .schema-list a:hover {
             color: #3498db;
         }
 
-    <!--    .badge {
-            display: inline-block;
-            padding: 3px 8px;
-            font-size: 0.75em;
-            font-weight: 600;
-            border-radius: 3px;
-            margin-right: 8px;
-            text-transform: uppercase;
-        }
-
-        .badge.class {
-            background: #e3f2fd;
-            color: #1565c0;
-        }
-
-        .badge.instance {
-            background: #f3e5f5;
-            color: #6a1b9a;
-        }
-
-        .badge.package {
-            background: #e8f5e9;
-            color: #2e7d32;
-        } -->
-
         .description {
+            color: #555;
+            font-size: 0.9em;
+            margin-top: 8px;
+            line-height: 1.7;
+        }
+
+        .owl-mapping {
             color: #7f8c8d;
             font-size: 0.9em;
+            font-style: italic;
             margin-top: 5px;
         }
 
@@ -154,6 +138,14 @@
             text-decoration: underline;
         }
 
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
         @media (max-width: 768px) {
             header h1 {
                 font-size: 2em;
@@ -174,56 +166,103 @@
 
         <div class="content">
             <section>
-                <!--<h2>Available Schemata</h2>-->
-				<p>The schemata correspond to the <a href="https://cascade.gfse.org/results/Latest%20Metamodel/" target="_blank">PIG Metamodel</a>.</p>
+				<p>These schemata validate the JSON-LD representation of PIG items and correspond to the 
+				<a href="https://cascade.gfse.org/results/Latest%20Metamodel/" target="_blank">PIG Metamodel</a>.</p>
+				<p>Each schema enforces structural constraints, data types, and cardinalities defined in the PIG metamodel, 
+				ensuring interoperability and semantic consistency across different tools and organizations.</p>
 
                 <h3>PIG Metamodel Class Items</h3>
-				<p>The classes are derived from the ontology; they must conform with the given schemata:</p>
+                <p>These schemata validate PIG class definitions (metamodel). Classes are derived from the ontology; 
+                in general, each concept in the ontology results in a class of either Property, Link, Entity, or Relationship. 
+                A class definition must conform to its respective schema and must have a <code>dcterms:title</code> and optionally a <code>dcterms:description</code> to convey meaning.</p>
+                
                 <ul class="schema-list">
                     <li>
-                        <!--<span class="badge class">Class</span>-->
                         <a href="Property.json">Property.json</a>
-                        <div class="description">Validates Property class definitions with datatypes, constraints, and enumeration values</div>
+                        <div class="description">
+                            Validates <strong>Property</strong> class definitions that specify attributes for entities and relationships. 
+                            May include datatype specifications (string, integer, double, boolean, dateTime, etc.), cardinality constraints 
+                            (<code>sh:minCount</code>, <code>sh:maxCount</code>), value constraints (<code>sh:minInclusive</code>, 
+                            <code>sh:maxInclusive</code>, <code>sh:maxLength</code>, <code>sh:pattern</code>), enumeration values 
+                            (<code>pig:eligibleValue</code>), default values, measurement units, and support for composed properties.
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: <code>owl:DatatypeProperty</code></div>
                     </li>
                     <li>
-                        <!--<span class="badge class">Class</span>-->
                         <a href="Link.json">Link.json</a>
-                        <div class="description">Validates Link class definitions with eligible endpoints</div>
+                        <div class="description">
+                            Validates <strong>Link</strong> class definitions that specify navigable connections between items. 
+                            Defines eligible endpoint classes (<code>pig:eligibleEndpoint</code>) which determine which Entity or Relationship classes can be connected via this link type. Links enable traversal of the information graph and support bi-directional relationships when paired (e.g., "contains" / "is contained by").
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: <code>owl:ObjectProperty</code></div>
                     </li>
                     <li>
-                        <!--<span class="badge class">Class</span>-->
                         <a href="Entity.json">Entity.json</a>
-                        <div class="description">Validates Entity class definitions with eligible properties and target links</div>
+                        <div class="description">
+                            Validates <strong>Entity</strong> class definitions for individual information objects. 
+                            Configures which properties (<code>pig:eligibleProperty</code>) and which outgoing 
+                            links are allowed (<code>pig:eligibleTargetLink</code>). 
+							Entities classify primary information objects such as Requirements, Components and Diagrams in a systems engineering context. Supports specialization hierarchies via <code>pig:specializes</code> and optional visual representation 
+                            via <code>pig:icon</code>.
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: <code>owl:Class</code></div>
                     </li>
                     <li>
-                        <!--<span class="badge class">Class</span>-->
                         <a href="Relationship.json">Relationship.json</a>
-                        <div class="description">Validates Relationship class definitions with source and target link specifications</div>
+                        <div class="description">
+                            Validates <strong>Relationship</strong> class definitions for directed connections between entities. 
+                            Configures which properties (<code>pig:eligibleProperty</code>), source links 
+                            (<code>pig:eligibleSourceLink</code>) and target links (<code>pig:eligibleTargetLink</code>) are allowed. 
+                            Relationships are reified connections that can carry their own properties, enabling rich traceability and dependency modeling (e.g., "Refinement" relationships with rationale and traceability status). 
+							Relationships classify meaningful statements including a subject and an object, where both the subject and the object is an entity or relationship instance.
+                            Supports specialization hierarchies and optional icons.
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: <code>owl:Class</code> with constrained <code>owl:ObjectProperty</code> endpoints</div>
                     </li>
                 </ul>
 
                 <h3>PIG Metamodel Instance Items</h3>
-				<p>The instances of the classes above are the project data or 'payload'; they must conform with the given schemata:</p>
+                <p>These schemata validate PIG instances (project data or "payload"). Instances represent actual data 
+                conforming to the class definitions above. They include revision control, modification tracking, and 
+                properties/links as configured by their respective classes.</p>
+                
                 <ul class="schema-list">
                     <li>
-                        <!--<span class="badge instance">Instance</span>-->
                         <a href="anEntity.json">anEntity.json</a>
-                        <div class="description">Validates entity instances with configurable properties and target links</div>
+                        <div class="description">
+                            Validates <strong>entity instances</strong> with actual property values and target link references. 
+                            Includes mandatory metadata: <code>@type</code> (reference to Entity class), <code>pig:revision</code>, 
+                            <code>dcterms:modified</code> timestamp, optional <code>pig:priorRevision</code> and 
+                            <code>dcterms:creator</code>. Properties can have direct values (<code>@value</code>) or reference enumeration values (<code>@id</code>) as defined by its class. Target links reference other entity or relationship instances. 
+                            Must have either <code>dcterms:title</code> or <code>dcterms:description</code> (or both) to convey meaning.
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: <code>owl:NamedIndividual</code></div>
                     </li>
                     <li>
-                        <!--<span class="badge instance">Instance</span>-->
                         <a href="aRelationship.json">aRelationship.json</a>
-                        <div class="description">Validates relationship instances with source/target links and properties</div>
+                        <div class="description">
+                            Validates <strong>relationship instances</strong> representing directed, reified connections between items (i.e. entity or relationship instances). 
+                            Similar metadata to entities, but additionally requires both source links (<code>pig:aSourceLink</code>) and target links (<code>pig:aTargetLink</code>) conforming to the class definition. Source and target links reference entity or relationship instances. Properties can carry contextual information about the relationship (e.g., traceability status, rationale, coverage analysis). Reification enables relationships to be first-class items with their own lifecycle and properties.
+							Must have a <code>dcterms:title</code> and optionally a <code>dcterms:description</code> to convey meaning.
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: <code>owl:NamedIndividual</code> (reified predicate)</div>
                     </li>
                 </ul>
 
                 <h3>PIG Package Item</h3>
-				<p>A package holds a subset of the graph for a specific communication purpose such as customer-supplier agreement; it must conform with the given schema:</p>
-                <ul class="schema-list">
+                <p>This schema validates complete PIG data packages. A package contains a subset of the product information 
+                graph bundled for specific purposes such as customer-supplier agreements, milestone deliverables, or 
+                change requests. Packages include their own context definitions and maintain referential integrity.</p>
+				<ul class="schema-list">
                     <li>
-                        <!--<span class="badge package">Package</span>-->
                         <a href="aPackage.json">aPackage.json</a>
-                        <div class="description">Validates complete JSON-LD documents with @context and @graph</div>
+                        <div class="description">
+                            Validates <strong>complete JSON-LD package documents</strong> with <code>@context</code> (namespace and vocabulary definitions) as well as <code>@graph</code> (array of PIG items). The graph contains a mix of item classes (Property, Link, Entity, Relationship) 
+                            and instances (anEntity, aRelationship). Package-level metadata includes optional 
+                            <code>dcterms:modified</code>, <code>dcterms:creator</code>, <code>dcterms:title</code>, and 
+                            <code>dcterms:description</code>. Validates each item against its corresponding schema based on <code>pig:itemType</code>.
+                        </div>
+                        <div class="owl-mapping">→ OWL mapping: Self-contained RDF graph with ontology and instance data</div>
                     </li>
                 </ul>
             </section>
@@ -231,13 +270,14 @@
             <section class="features">
                 <h2>Key Features</h2>
                 <ul>
-                    <li>JSON Schema Draft-07 compliant</li>
-                    <li>Strict validation with <code>additionalProperties: false</code></li>
-                    <li>Pattern-based property validation for configurable items</li>
-                    <li>Multi-language text support with IETF language tags</li>
-                    <li>Conditional schema application with if-then logic</li>
-                    <li>Modular schema design with reusable definitions</li>
-                    <li>Complete package validation with @graph</li>
+                    <li><strong>JSON Schema Draft-07 compliant:</strong> Industry-standard validation with wide tooling support</li>
+                    <li><strong>Strict validation:</strong> <code>additionalProperties: false</code> prevents schema violations</li>
+                    <li><strong>Pattern-based validation:</strong> Configurable properties use regex patterns with negative lookahead</li>
+                    <li><strong>Multi-language support:</strong> IETF language tags (<code>@language</code>) for internationalization</li>
+                    <li><strong>Conditional schemas:</strong> If-then logic applies correct validation based on <code>pig:itemType</code></li>
+                    <li><strong>Modular design:</strong> Reusable definitions via <code>$defs</code> and <code>$ref</code></li>
+                    <li><strong>Package validation:</strong> Complete graph validation with mixed metamodel and instance items</li>
+                    <li><strong>Format validation:</strong> ISO 8601 date-time, URI patterns, and CURIE namespace syntax</li>
                 </ul>
             </section>
         </div>

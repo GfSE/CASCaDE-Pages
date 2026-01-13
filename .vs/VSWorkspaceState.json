@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pig",
+    "\\pig\\2025-01-12",
+    "\\pig\\2025-01-12\\schema",
+    "\\pig\\2025-01-12\\schema\\jsonld"
   ],
+  "SelectedNode": "\\pig\\2025-01-12\\schema\\jsonld\\index.html",
   "PreviewInSolutionExplorer": false
 }

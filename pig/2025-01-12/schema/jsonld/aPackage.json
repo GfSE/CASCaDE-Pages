@@ -2,7 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/aPackage.json",
     "title": "PIG APackage JSON-LD Schema",
-    "description": "JSON-LD schema for validating complete PIG packages with @context and @graph containing all PIG items",
+    "description": "Validates complete JSON-LD package documents with @context (namespace and vocabulary definitions) as well as @graph (array of PIG items). The graph contains a mix of item classes (Property, Link, Entity, Relationship) and instances (anEntity, aRelationship). Package-level metadata includes optional dcterms:modified, dcterms:creator, dcterms:title, and dcterms:description. Validates each item against its corresponding schema based on pig:itemType.",
     "type": "object",
     "properties": {
         "@context": {
