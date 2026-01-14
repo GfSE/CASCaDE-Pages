@@ -22,7 +22,7 @@
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 960px;
             margin: 0 auto;
             background: white;
             border-radius: 8px;
@@ -167,13 +167,13 @@
         <div class="content">
             <section>
 				<p>These schemata validate the JSON-LD representation of PIG items and correspond to the 
-				<a href="https://cascade.gfse.org/results/Latest%20Metamodel/" target="_blank">PIG Metamodel</a>.</p>
-				<p>Each schema enforces structural constraints, data types, and cardinalities defined in the PIG metamodel, 
+				<a href="https://cascade.gfse.org/results/Latest%20Metamodel/" target="_blank">PIG Metamodel</a>. 
+				Each schema enforces structural constraints, data types, and cardinalities defined in the PIG metamodel, 
 				ensuring interoperability and semantic consistency across different tools and organizations.</p>
 
                 <h3>PIG Metamodel Class Items</h3>
-                <p>These schemata validate PIG class definitions (metamodel). Classes are derived from the ontology; 
-                in general, each concept in the ontology results in a class of either Property, Link, Entity, or Relationship. 
+                <p>These schemata validate PIG class definitions. Classes are derived from the ontology. 
+                In general, each concept in the ontology results in a class of either Property, Link, Entity, or Relationship. 
                 A class definition must conform to its respective schema and must have a <code>dcterms:title</code> and optionally a <code>dcterms:description</code> to convey meaning.</p>
                 
                 <ul class="schema-list">
@@ -270,14 +270,18 @@
             <section class="features">
                 <h2>Key Features</h2>
                 <ul>
+                    <li><strong>Design for transformation:</strong> The PIG metamodel assures loss-less transformation between OWL/RDF (Knowledge Graphs), GQL (Property Graphs) and Object-oriented Programming</li>
+                    <li><strong>Federation:</strong> JSON-LD supports dataspaces with federated data under full control of the respective owners</li>
+                    <li><strong>Multi-user Operation:</strong> JSON-LD lends itself for traceable multi-user access and versioning</li>
+                    <li><strong>Wide technology support:</strong> Good support by many programming languages including JavaScript, Python, Java and C#</li>
                     <li><strong>JSON Schema Draft-07 compliant:</strong> Industry-standard validation with wide tooling support</li>
-                    <li><strong>Strict validation:</strong> <code>additionalProperties: false</code> prevents schema violations</li>
-                    <li><strong>Pattern-based validation:</strong> Configurable properties use regex patterns with negative lookahead</li>
+                    <li><strong>Strict validation:</strong> Additional properties are not allowed to prevent schema violations</li>
+                    <li><strong>Pattern-based validation:</strong> Configurable properties and links use regex patterns with negative lookahead</li>
                     <li><strong>Multi-language support:</strong> IETF language tags (<code>@language</code>) for internationalization</li>
-                    <li><strong>Conditional schemas:</strong> If-then logic applies correct validation based on <code>pig:itemType</code></li>
-                    <li><strong>Modular design:</strong> Reusable definitions via <code>$defs</code> and <code>$ref</code></li>
-                    <li><strong>Package validation:</strong> Complete graph validation with mixed metamodel and instance items</li>
-                    <li><strong>Format validation:</strong> ISO 8601 date-time, URI patterns, and CURIE namespace syntax</li>
+                    <li><strong>Conditional schemata:</strong> If-then logic applies correct validation based on <code>pig:itemType</code></li>
+                    <li><strong>Modular design:</strong> Reusable definitions for each metamodel item type</li>
+                    <li><strong>Package validation:</strong> Complete graph validation with both class and instance items</li>
+                    <li><strong>Format validation:</strong> Simple datatypes with optinal range limitation, ISO 8601 date-time, URI patterns and CURIE namespace syntax</li>
                 </ul>
             </section>
         </div>

@@ -9,25 +9,25 @@ nav_order: 90
 
 ### 2026-01-12 Metamodel Implemented in RDF/Turtle and JSON-LD with JSON Schema
 
-The last quarter's work on the 'Magic Tetrahedron' has been finalized. That is, we now have patterns for RDF/Turtle, JSON-LD
-and Javascript classes. The 'Magic Tetrahedron' describes the sweet spot, where a Knowledge Graph,
-a Property Graph and a data-structure in an object-oriented programming language are designed in a way that mutual transformations
-are easily possible. Of course, this means that the expressivity is reduced to a certain extent: Not any more OWL is the 
-ontology language, but a subset defined by certain shapes (patterns). 
+The last quarter's work on the 'Magic Tetrahedron' has been finalized. That is, the PIG metamodel defines patterns for RDF/Turtle, JSON-LD
+and Javascript. The 'Magic Tetrahedron' describes the sweet spot, where a Knowledge Graph,
+a Property Graph and a data-structure in an object-oriented programming language are designed in a way that lossless transformations
+between any of the data formats are easily possible. Of course, this means that the expressivity is tailored for their purpose. 
 This approach will be validated in the next step with (near to) real world scenarios and data.
 
-The current proposal does not use a 1:1 transformation of RDF to JSON-LD as proposed by W3C. Instead of an essentially redundant
-representation, JSON-LD is used to best take advantage of its features, namely the power of JSON Schema and the mature 
-multi-user operations of existing document databases. Rather than separate class and shape definitions in RDF, unified JSON objects are used: 
+The current proposal does not use JSON-LD as an essentially redundant representation of OWL/RDF, but takes 
+best advantage of its features, namely the power of JSON Schema and the mature multi-user operations of existing document databases. 
+Rather than separate class and shape definitions in RDF, unified JSON objects are used: 
 Usually between 10 and 30 RDF tripels are combined to a single object facilitating transaction management and versioning. 
 The information content is exactly the same, but the respective strengths of the formats and their respective ecosystems are exploited.
 
-The schemata for all item types as defined by the metamodel are published [here](https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/).
+In RDF, the metamodel classes use SHACL shapes defining the correct pattern of the instances/individuals, 
+i.e. the graph representing the unified product data; see the examples below.
+In JSON-LD, JSON schemata for all item types as defined by the metamodel are available [here](https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/).
 
-Example data is available in RDF/Turtle and JSON-LD formats. The classes in RDF have shapes defining the correct pattern of the instances/individuals, 
-i.e. the graph representing the unified product data.
-- Very Simple Model with Requirement (FMC) [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF);
-- Small Autonomous Vehicle (SysML v1) [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/7_RDF);
+Example data is available in RDF/Turtle and JSON-LD formats:
+- Very Simple Model with Requirement (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF);
+- Small Autonomous Vehicle (SysML v1): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/7_RDF);
 - Dimmer (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/7_RDF).
 
 The data has successfully passed the schema and and instantiated Javascript classes representing the metamodel items. 
@@ -37,12 +37,14 @@ There is still lots to do, so any help in time or budget is appreciated!
 
 ### 2025-12-08 CASCaRA: Initial Standard Submission at OMG
 
-The CASCaRA Submission Team has prepared an initial submission of the standard. 
+The CASCaRA Submission Team has prepared an (initial submission of the standard)[https://gesellschaftf.sharepoint.com/:b:/s/SpecIf-DDPCollaboration2/IQByyzIgfUjjTr1vucGXs50XAd8ZcPnQixTxqA4puNaSWZ4?e=nNjmi9] 
+_(link opens for the contributors to the submission team)_. 
 Both the Product-Information-Graph metamodel as well as the first revision of the ontology are included.
 The document has been discussed at the OMG TC Meeting in San Francisco CA and has received a lot of attention
 among other OMG initiatives.
 
-Please note the the project name has been changed to 'CASCaRA' to avoid misunderstandings: Ass far as we know, CASCaRA 
+Please note the the project has been renamed to 'CASCaRA' (Collaborative Artifact, Specification, Context and Resource Access) 
+to avoid misunderstandings: Ass far as we know, CASCaRA 
 is not used by any other initiative or product. This website and the GiHub repositories will be moved to corresponding internet addresses.
 
 
