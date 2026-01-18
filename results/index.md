@@ -37,7 +37,7 @@ There is still lots to do, so any help in time or budget is appreciated!
 ### 2025-12-08 CASCaRA: Initial Standard Submission at OMG
 
 The CASCaRA Submission Team has prepared an [initial submission of the standard]
-(https://gesellschaftf.sharepoint.com/:b:/s/SpecIf-DDPCollaboration2/IQByyzIgfUjjTr1vucGXs50XAd8ZcPnQixTxqA4puNaSWZ4?e=nNjmi9) (link opens for the contributors to the submission team)_. 
+(https://gesellschaftf.sharepoint.com/:b:/s/SpecIf-DDPCollaboration2/IQByyzIgfUjjTr1vucGXs50XAd8ZcPnQixTxqA4puNaSWZ4?e=nNjmi9) _(link opens for the contributors to the submission team)_. 
 Both the Product-Information-Graph metamodel as well as the first revision of the ontology are included.
 The document has been discussed at the OMG TC Meeting in San Francisco CA and has received a lot of attention
 among other OMG initiatives.
