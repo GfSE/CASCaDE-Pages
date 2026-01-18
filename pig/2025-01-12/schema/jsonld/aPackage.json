@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/aPackage.json",
+    "$id": "http://product-information-graph.org/schema/2026-01-12/jsonld/aPackage.json",
     "title": "PIG APackage JSON-LD Schema",
     "description": "Validates complete JSON-LD package documents with @context (namespace and vocabulary definitions) as well as @graph (array of PIG items). The graph contains a mix of item classes (Property, Link, Entity, Relationship) and instances (anEntity, aRelationship). Package-level metadata includes optional dcterms:modified, dcterms:creator, dcterms:title, and dcterms:description. Validates each item against its corresponding schema based on pig:itemType.",
     "type": "object",
@@ -28,6 +28,50 @@
                 }
             ]
         },
+        "@id": {
+            "type": "string",
+            "pattern": "^(?:[A-Za-z0-9_\\-]+:[^:\\s]+|https?:\\/\\/[^\\s]+)$",
+            "description": "Optional package identifier"
+        },
+        "@type": {
+            "$ref": "#/$defs/idString",
+            "description": "Reference to the Package class this instance belongs to"
+        },
+        "pig:itemType": {
+            "type": "object",
+            "required": [ "@id" ],
+            "properties": {
+                "@id": {
+                    "type": "string",
+                    "enum": [ "pig:aPackage" ],
+                    "description": "The PigItemType for pig:aPackage"
+                }
+            },
+            "additionalProperties": false
+        },
+        "dcterms:title": {
+            "type": "array",
+            "description": "Optional package title",
+            "items": {
+                "$ref": "#/$defs/languageValue"
+            }
+        },
+        "dcterms:description": {
+            "type": "array",
+            "description": "Optional package description",
+            "items": {
+                "$ref": "#/$defs/languageValue"
+            }
+        },
+        "dcterms:modified": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Optional package modification timestamp"
+        },
+        "dcterms:creator": {
+            "type": "string",
+            "description": "Optional package creator"
+        }
         "@graph": {
             "type": "array",
             "minItems": 0,
@@ -57,8 +101,10 @@
                 "allOf": [
                     {
                         "if": {
+                            "type": "object",
                             "properties": {
                                 "pig:itemType": {
+									"type": "object",
                                     "properties": {
                                         "@id": { "const": "pig:anEntity" }
                                     }
@@ -66,13 +112,15 @@
                             }
                         },
                         "then": {
-                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/anEntity.json"
+                            "$ref": "http://product-information-graph.org/schema/2026-01-12/jsonld/anEntity.json"
                         }
                     },
                     {
                         "if": {
+                            "type": "object",
                             "properties": {
                                 "pig:itemType": {
+                                    "type": "object",
                                     "properties": {
                                         "@id": { "const": "pig:aRelationship" }
                                     }
@@ -80,13 +128,15 @@
                             }
                         },
                         "then": {
-                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/aRelationship.json"
+                            "$ref": "http://product-information-graph.org/schema/2026-01-12/jsonld/aRelationship.json"
                         }
                     },
                     {
                         "if": {
+                            "type": "object",
                             "properties": {
                                 "pig:itemType": {
+                                    "type": "object",
                                     "properties": {
                                         "@id": { "const": "pig:Property" }
                                     }
@@ -94,13 +144,15 @@
                             }
                         },
                         "then": {
-                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Property.json"
+                            "$ref": "http://product-information-graph.org/schema/2026-01-12/jsonld/Property.json"
                         }
                     },
                     {
                         "if": {
+                            "type": "object",
                             "properties": {
                                 "pig:itemType": {
+                                    "type": "object",
                                     "properties": {
                                         "@id": { "const": "pig:Link" }
                                     }
@@ -108,13 +160,15 @@
                             }
                         },
                         "then": {
-                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Link.json"
+                            "$ref": "http://product-information-graph.org/schema/2026-01-12/jsonld/Link.json"
                         }
                     },
                     {
                         "if": {
+                            "type": "object",
                             "properties": {
                                 "pig:itemType": {
+                                    "type": "object",
                                     "properties": {
                                         "@id": { "const": "pig:Entity" }
                                     }
@@ -122,13 +176,15 @@
                             }
                         },
                         "then": {
-                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Entity.json"
+                            "$ref": "http://product-information-graph.org/schema/2026-01-12/jsonld/Entity.json"
                         }
                     },
                     {
                         "if": {
+                            "type": "object",
                             "properties": {
                                 "pig:itemType": {
+                                    "type": "object",
                                     "properties": {
                                         "@id": { "const": "pig:Relationship" }
                                     }
@@ -136,39 +192,11 @@
                             }
                         },
                         "then": {
-                            "$ref": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/Relationship.json"
+                            "$ref": "http://product-information-graph.org/schema/2026-01-12/jsonld/Relationship.json"
                         }
                     }
                 ]
             }
-        },
-        "@id": {
-            "type": "string",
-            "pattern": "^(?:[A-Za-z0-9_\\-]+:[^:\\s]+|https?:\\/\\/[^\\s]+)$",
-            "description": "Optional package identifier"
-        },
-        "dcterms:title": {
-            "type": "array",
-            "description": "Optional package title",
-            "items": {
-                "$ref": "#/$defs/languageValue"
-            }
-        },
-        "dcterms:description": {
-            "type": "array",
-            "description": "Optional package description",
-            "items": {
-                "$ref": "#/$defs/languageValue"
-            }
-        },
-        "dcterms:modified": {
-            "type": "string",
-            "format": "date-time",
-            "description": "Optional package modification timestamp"
-        },
-        "dcterms:creator": {
-            "type": "string",
-            "description": "Optional package creator"
         }
     },
     "required": [ "@context", "@graph" ],

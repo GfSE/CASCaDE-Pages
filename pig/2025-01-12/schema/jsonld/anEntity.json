@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/anEntity.json",
+    "$id": "http://product-information-graph.org/schema/2026-01-12/jsonld/anEntity.json",
     "title": "PIG AnEntity JSON-LD Schema",
     "description": "Validates <strong>entity instances</strong> with actual property values and target link references. Includes mandatory metadata: @type (reference to Entity class), pig:revision, dcterms:modified timestamp, optional pig:priorRevision and dcterms:creator. Properties can have direct values (@value) or reference enumeration values (@id) as defined by its class. Target links reference other entity or relationship instances. Must have either dcterms:title or dcterms:description (or both) to convey meaning.",
     "type": "object",
@@ -84,15 +84,17 @@
                     },
                     "@id": {
                         "$ref": "#/$defs/idString",
-                        "description": "Reference to enumeration value or linked entity"
+                        "description": "Reference ID for enumeration value or linked entity"
                     }
                 },
                 "required": [ "pig:itemType" ],
                 "oneOf": [
                     {
+                        "type": "object",
                         "description": "aProperty with direct value",
                         "properties": {
                             "pig:itemType": {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "const": "pig:aProperty"
@@ -106,9 +108,11 @@
                         }
                     },
                     {
+                        "type": "object",
                         "description": "aProperty with enumeration reference",
                         "properties": {
                             "pig:itemType": {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "const": "pig:aProperty"
@@ -122,9 +126,11 @@
                         }
                     },
                     {
+                        "type": "object",
                         "description": "aTargetLink to another entity or relationship",
                         "properties": {
                             "pig:itemType": {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "const": "pig:aTargetLink"

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/aRelationship.json",
+    "$id": "http://product-information-graph.org/schema/2026-01-12/jsonld/aRelationship.json",
     "title": "PIG ARelationship JSON-LD Schema",
     "description": "Validates <strong>relationship instances</strong> representing directed, reified connections between items (i.e. entity or relationship instances). Similar metadata to entities, but additionally requires both source links (pig:aSourceLink) and target links (pig:aTargetLink) conforming to the class definition. Source and target links reference entity or relationship instances. Properties can carry contextual information about the relationship (e.g., traceability status, rationale, coverage analysis). Reification enables relationships to be first-class items with their own lifecycle and properties. Must have a dcterms:title and optionally a dcterms:description to convey meaning.",
     "type": "object",
@@ -90,9 +90,11 @@
                 "required": [ "pig:itemType" ],
                 "oneOf": [
                     {
+                        "type": "object",
                         "description": "aProperty with direct value",
                         "properties": {
                             "pig:itemType": {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "const": "pig:aProperty"
@@ -106,9 +108,11 @@
                         }
                     },
                     {
+                        "type": "object",
                         "description": "aProperty with enumeration reference",
                         "properties": {
                             "pig:itemType": {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "const": "pig:aProperty"
@@ -122,9 +126,11 @@
                         }
                     },
                     {
+                        "type": "object",
                         "description": "aSourceLink or aTargetLink to another entity or relationship",
                         "properties": {
                             "pig:itemType": {
+                                "type": "object",
                                 "properties": {
                                     "@id": {
                                         "enum": [ "pig:aSourceLink", "pig:aTargetLink" ]

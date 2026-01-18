@@ -20,10 +20,9 @@ best advantage of its features, namely the power of JSON Schema and the mature m
 Rather than separate class and shape definitions in RDF, unified JSON objects are used: 
 Usually between 10 and 30 RDF tripels are combined to a single object facilitating transaction management and versioning. 
 The information content is exactly the same, but the respective strengths of the formats and their respective ecosystems are exploited.
-
-In RDF, the metamodel classes use SHACL shapes defining the correct pattern of the instances/individuals, 
+- For PIG data using RDF, SHACL shapes for each the metamodel class define the correct pattern of the instances/individuals, 
 i.e. the graph representing the unified product data; see the examples below.
-In JSON-LD, JSON schemata for all item types as defined by the metamodel are available [here](https://cascade.gfse.org/pig/2025-01-12/schema/jsonld/).
+- For PIG data using JSON-LD, JSON schemata for all item types as defined by the metamodel are available [here](https://product-information-graph.org/schema/2026-01-12/jsonld/).
 
 Example data is available in RDF/Turtle and JSON-LD formats:
 - Very Simple Model with Requirement (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF);
