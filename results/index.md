@@ -29,7 +29,7 @@ Example data is available in RDF/Turtle and JSON-LD formats:
 - Small Autonomous Vehicle (SysML v1): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/7_RDF);
 - Dimmer (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/7_RDF).
 
-The data has successfully passed the schema and and instantiated Javascript classes per metamodel item. 
+The examples have successfully passed the schema and instantiated Javascript classes per metamodel item. 
 So we are all set to implement the transformations from the source formats and to validate the concept.
 There is still lots to do, so any help in time or budget is greatly appreciated!
 
