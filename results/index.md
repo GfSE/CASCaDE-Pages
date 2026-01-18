@@ -20,7 +20,7 @@ best advantage of its features, namely the power of JSON Schema and the mature m
 Rather than separate class and shape definitions in RDF, unified JSON objects are used: 
 Usually between 10 and 30 RDF tripels are combined to a single object facilitating transaction management and versioning. 
 The information content is exactly the same, but the respective strengths of the formats and their respective ecosystems are exploited.
-- For PIG data using RDF, SHACL shapes for each the metamodel class define the correct pattern of the instances/individuals, 
+- For PIG data using RDF, SHACL shapes for each metamodel class define the correct pattern of the instances/individuals, 
 i.e. the graph representing the unified product data; see the examples below.
 - For PIG data using JSON-LD, JSON schemata for all item types as defined by the metamodel are available [here](https://product-information-graph.org/schema/2026-01-12/jsonld/).
 
@@ -36,14 +36,14 @@ There is still lots to do, so any help in time or budget is appreciated!
 
 ### 2025-12-08 CASCaRA: Initial Standard Submission at OMG
 
-The CASCaRA Submission Team has prepared an (initial submission of the standard)[https://gesellschaftf.sharepoint.com/:b:/s/SpecIf-DDPCollaboration2/IQByyzIgfUjjTr1vucGXs50XAd8ZcPnQixTxqA4puNaSWZ4?e=nNjmi9] 
-_(link opens for the contributors to the submission team)_. 
+The CASCaRA Submission Team has prepared an [initial submission of the standard]
+(https://gesellschaftf.sharepoint.com/:b:/s/SpecIf-DDPCollaboration2/IQByyzIgfUjjTr1vucGXs50XAd8ZcPnQixTxqA4puNaSWZ4?e=nNjmi9) (link opens for the contributors to the submission team)_. 
 Both the Product-Information-Graph metamodel as well as the first revision of the ontology are included.
 The document has been discussed at the OMG TC Meeting in San Francisco CA and has received a lot of attention
 among other OMG initiatives.
 
 Please note the the project has been renamed to 'CASCaRA' (Collaborative Artifact, Specification, Context and Resource Access) 
-to avoid misunderstandings: Ass far as we know, CASCaRA 
+to avoid misunderstandings: As far as we know, CASCaRA 
 is not used by any other initiative or product. This website and the GiHub repositories will be moved to corresponding internet addresses.
 
 
