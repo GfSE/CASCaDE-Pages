@@ -25,9 +25,10 @@ i.e. the graph representing the unified product data; see the examples below.
 - For PIG data using JSON-LD, JSON schemata for all item types as defined by the metamodel are available [here](https://product-information-graph.org/schema/2026-01-12/jsonld/).
 
 Example data is available in RDF/Turtle and JSON-LD formats:
-- Very Simple Model with Requirement (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF);
-- Small Autonomous Vehicle (SysML v1): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/7_RDF);
-- Dimmer (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/6_JSONLD) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/7_RDF).
+- Alice works for ACME (PIG native): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/blob/main/Alice%20%5BPIG%20native%5D/7_RDF) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/blob/main/Alice%20%5BPIG%20native%5D/6_JSONLD/);
+- Very Simple Model with Requirement (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/6_JSONLD);
+- Small Autonomous Vehicle (SysML v1): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/7_RDF) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/SmAV%20%5BSysML%20v1%20-%20Cameo%5D/6_JSONLD);
+- Dimmer (FMC): [RDF/Turtle](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/7_RDF) and [JSON-LD](https://github.com/GfSE/CASCaDE-Verification-and-Validation/tree/main/Dimmer%20%5BFMC%5D/6_JSONLD).
 
 The examples have successfully passed the schema and instantiated Javascript classes per metamodel item. 
 So we are all set to implement the transformations from the source formats and to validate the concept.
