@@ -20,7 +20,7 @@ collaboration on the product.
 The activities with input and output artifacts which are related to mechatronic 
 and lately so-called cyber-physical systems are covered by the standard 
 ISO/IEC-15288. As it establishes a useful structure and widely accepted terms, 
-it has been adopted for the CASCaDE initiative.
+it has been adopted for the CASCaRA initiative.
 
 <img src="./assets/images/RFLP-BallBearing.png" alt="RFLP-BallBearing" />
 _Fig.1: Example illustrating linked cross-domain product information. Source: Schaeffler AG._
@@ -145,7 +145,7 @@ Similar to the BOEING four levels of collaboration, prostep ivip defines 3 modes
 _Fig.4: Collaboration modes according to prostep ivip. Source: Prostep iViP e.V._
 -->
 
-CASCaDE shall address all those levels and modes. The information model 
+CASCaRA shall address all those levels and modes. The information model 
 must hence support serialization in a container for ‘offline’ or ‘asynchronous’ 
 working as well as transactions on entities and relations for ‘online’ or 
 ‘synchronous’ working. Of course, the visibility and use of entities and relations 

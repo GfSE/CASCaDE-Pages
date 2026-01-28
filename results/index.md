@@ -49,7 +49,7 @@ is not used by any other initiative or product. This website and the GiHub repos
 
 ### 2025-03-25 Metamodel Discussed at OMG TC Meeting in Reston VA
 
-In Q1, the team of CASCaDE work-package 1 has prepared a draft metamodel for a knowledge graph 
+In Q1, the team of CASCaRA work-package 1 has prepared a draft metamodel for a knowledge graph 
 containing interrelated product information from different sources. 
 A major design goal is to reduce the graph's power of expression as much as permitted by the real world data,
 so that the choice of technologies is as wide as possible. Requirements have been identified
@@ -59,13 +59,13 @@ The discussions last week in Reston with other OMG initiatives such as SysML v2,
 have shown a lot of potential for cooperation and reuse. For good reason, users expect complementary standards.
 
 Please have a look:
-- Product Information Graph Metamodel (draft): <a href="https://specif.de/apps/edit#import=https://cascade.gfse.org/results/2025-03-25%20Metamodel/Product%20Information%20Graph.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="./2025-03-25%20Metamodel/" target="_blank" >HTML</a>.
+- Product Information Graph Metamodel (draft): <a href="https://specif.de/apps/edit#import=https://cascara.gfse.org/results/2025-03-25%20Metamodel/Product%20Information%20Graph.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="./2025-03-25%20Metamodel/" target="_blank" >HTML</a>.
 - Very Simple Model with Requirements: <a href="https://specif.de/apps/edit#import=..\examples\v1.2\09_Very-Simple-Model-FMC-with-Requirements.specif.zip" target="_blank" >Online with Relations</a> and transformed to <a href="https://github.com/GfSE/CASCaDE-Verification-and-Validation/blob/main/Very-simple-Model-with-Requirements%20%5BFMC%20-%20SpecIF%5D/7_RDF/Project%20'Very%20Simple%20Model%20(FMC)%20with%20Requirements'.ttl" target="_blank" >RDF</a> according to the metamodel.
 
 As a next step, an ontology shall be developed to map the concepts of different domains to the integrated graph 
 and the metamodel shall be verified and validated with real world data. Towards this end we 
 **urgently need help by companies developing and offering mechatronic products (the 'users') and interested software vendors**: 
-CASCaDE is for you!
+CASCaRA is for you!
 
 Contact
 - Uwe Kaufmann via <a href="https://www.linkedin.com/in/uwekaufmann/" target="_blank">linkedIn</a> or [e-mail](mailto:uwe.kaufmann@gfse.org)
@@ -79,7 +79,7 @@ This is a major milestone on the way to standardize the collaboration in the
 product lifecycle from end to end.
 A controlled vocabulary and a common context for so far partial product data are in focus.
 
-Major ideas behind the RFP are explained <a href="../files/documents/2024-12%20CASCaDE-Introduction%20OMG.pdf" target="_blank" >here</a> 
+Major ideas behind the RFP are explained <a href="../assets/documents/2024-12%20CASCaDE-Introduction%20OMG.pdf" target="_blank" >here</a> 
 and the RFP itself ist published on the <a href="https://www.omg.org/cgi-bin/doc?mantis/24-12-03.pdf" target="_blank" >OMG website</a>.
 
 Members of prostep ivip and GfSE have prepared the RFP document in the past months.

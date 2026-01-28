@@ -5,11 +5,11 @@ has_children: true
 nav_order: 0
 ---
 
-# The CASCaDE Project
+# The CASCaRA Project (formerly CASCaDE)
 
 ## In a Nutshell
 
-CASCaDE (Collaborative Artifact, Specification, Context and Data Exchange) shall facilitate collaboration in the product lifecycle from conception to retirement. 
+CASCaRA (Collaborative Artifact, Specification, Context and Resource Access) shall facilitate collaboration in the product lifecycle from conception to retirement. 
 Collaboration is standardized in terms of data format and ontology. 
 Product data from different sources is combined to a common knowledge graph where standard queries can be applied. 
 Useful product information is not only provided for users, but also for exchange between machines including machine learning and artificial intelligence.
@@ -54,7 +54,7 @@ More concretely, the following use-cases are typical examples of collaboration b
 
 There has been a similar approach in civil engineering for years. 
 The Building Information Modeling (BIM) is a standardized information model for all participants in the value chain and has contributed significantly 
-to improved collaboration with substantial time and cost savings. The CASCaDE initiative shall achieve no more and no less within the domain of mechatronics and software.
+to improved collaboration with substantial time and cost savings. The CASCaRA initiative shall achieve no more and no less within the domain of mechatronics and software.
 
 The initiative relies on the observation, that while there will always be specialized tools for different purposes, there is an interest in 
 combining partial results from different teams, navigating, searching and reviewing partial results in a common context and sharing model information between organizations and tools.

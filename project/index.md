@@ -16,7 +16,7 @@ So the following setup is preliminary.
 Successful Standardization needs more than a Standard: A Reference Implementation plus Verification & Validation. 
 Certification is needed later on once the standard is established and software products are developed and released.
 
-<img src="../assets/images/CASCaDE Focus Areas.png" alt="CASCaDE Focus Areas" />
+<img src="../assets/images/CASCaRA Focus Areas.png" alt="CASCaRA Focus Areas" />
 
 ## Organization
 
@@ -34,7 +34,7 @@ A publicly available reference implementation is best suited for V&V.
 
 It's about collaboration, so let's collaborate.
 
-<img src="../assets/images/CASCaDE Project Organization.png" alt="CASCaDE Project Organization" />
+<img src="../assets/images/CASCaRA Project Organization.png" alt="CASCaRA Project Organization" />
 
 Proposal for agile project management:
 
@@ -46,28 +46,28 @@ Proposal for agile project management:
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaDE Metamodel</a></td><td>Development of schema and constraints ("syntax") as part of the standard</td><td class="blue">Submission Team (WP1)</td>
+<td><a href="https://github.com/orgs/GfSE/projects/10" target="_blank">CASCaRA Metamodel</a></td><td>Development of schema and constraints ("syntax") as part of the standard</td><td class="blue">Submission Team (WP1)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaDE Ontology</a></td><td>Development of terms/concepts ("semantics") as part of the standard</td><td class="blue">Submission Team (WP2)</td>
+<td><a href="https://github.com/orgs/GfSE/projects/6" target="_blank">CASCaRA Ontology</a></td><td>Development of terms/concepts ("semantics") as part of the standard</td><td class="blue">Submission Team (WP2)</td>
 </tr>
 <tr>
-<td>CASCaDE Operations</td><td>Development of operations as part of the standard</td><td class="blue">Submission Team (WP3)</td>
+<td>CASCaRA Operations</td><td>Development of operations as part of the standard</td><td class="blue">Submission Team (WP3)</td>
 </tr>
 <tr>
-<td>CASCaDE Transformations</td><td>Development of transformations as part of the standard</td><td class="blue">Submission Team (WP4)</td>
+<td>CASCaRA Transformations</td><td>Development of transformations as part of the standard</td><td class="blue">Submission Team (WP4)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Requirements Verification</a></td><td>Verificiation of the requirements as listed in the RFP</td><td class="blue">Submission Team (WP5)</td>
+<td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaRA Requirements Verification</a></td><td>Verificiation of the requirements as listed in the RFP</td><td class="blue">Submission Team (WP5)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/12" target="_blank">CASCaDE Specification</a></td><td>Documentation of the standard with description and machine-readable resources</td><td class="blue">Submission Team (WP6)</td>
+<td><a href="https://github.com/orgs/GfSE/projects/12" target="_blank">CASCaRA Specification</a></td><td>Documentation of the standard with description and machine-readable resources</td><td class="blue">Submission Team (WP6)</td>
 </tr>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaDE Reference Implementation</a></td><td>Reference implementation</td><td class="rose">Development Team</td>
+<td><a href="https://github.com/orgs/GfSE/projects/5" target="_blank">CASCaRA Reference Implementation</a></td><td>Reference implementation</td><td class="rose">Development Team</td>
 </tr>
 <tr>
-<td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaDE Verification and Validation</a></td><td>Verificiation and validation of the standard using the reference implementation</td><td class="yellow">V&V Team</td>
+<td><a href="https://github.com/orgs/GfSE/projects/8" target="_blank">CASCaRA Verification and Validation</a></td><td>Verificiation and validation of the standard using the reference implementation</td><td class="yellow">V&V Team</td>
 </tr>
 </tbody>
 </table>
@@ -322,7 +322,7 @@ The sparking plug has been produced by Robert Bosch; the OEMs did not build it t
 - All web-browsers (Firefox, Edge, Chrome, Safari, Opera and many others) use one of the open-source engines Gecko, WebKit or Blink. 
 Opera and even Microsoft have abandoned their own browser engines in favor of an open-source product.
 
-Why should software-vendors develop the standard core-features of CASCaDE independently by themselves? And why debug towards interoperability later on? 
+Why should software-vendors develop the standard core-features of CASCaRA independently by themselves? And why debug towards interoperability later on? 
 
 ### Benefits of an Open-Source "Community Edition"
 
