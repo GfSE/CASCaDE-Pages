@@ -34,4 +34,4 @@ A simple example showing the process of an ontology-based application:
 
 A [3-step process](https://gfse.github.io/CASCaDE-Reference-Implementation/design/Ontology-based%20Applications/) is described with links to web editors and the example data.
 
-<!-- The referenced examples are stored here at ../examples/libraries/index.html --><<<s
+<!-- The referenced examples are stored here at ../examples/libraries/index.html -->
