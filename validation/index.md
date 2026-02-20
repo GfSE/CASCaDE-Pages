@@ -32,4 +32,6 @@ A simple example showing the process of an ontology-based application:
 2. Managing application data, here the libraries with their books and authors, 
 3. Using the application data, for example querying the books available in a given library.
 
-A [3-step process](../examples/libraries/index.html) is described with links to web editors and the example data.
+A [3-step process](https://gfse.github.io/CASCaDE-Reference-Implementation/design/Ontology-based%20Applications/) is described with links to web editors and the example data.
+
+<!-- The referenced examples are stored here at ../examples/libraries/index.html --><<<s
