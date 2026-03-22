@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\examples",
+    "\\examples\\libraries",
     "\\pig",
     "\\pig\\2025-01-12",
     "\\pig\\2025-01-12\\schema",
-    "\\pig\\2025-01-12\\schema\\jsonld"
+    "\\pig\\2025-01-12\\schema\\jsonld",
+    "\\project",
+    "\\results"
   ],
+  "SelectedNode": "\\examples",
   "PreviewInSolutionExplorer": false
 }
