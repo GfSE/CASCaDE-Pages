@@ -6,6 +6,8 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xs: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix FMC: <http://fmc-modeling.org#> .
+@prefix casShapes_FMC: <https://product-information-graph.org/v0.2/ontology/shapes/FMC#> .
 @prefix ReqIF: <https://www.prostep.org/fileadmin/downloads/PSI_ImplementationGuide_ReqIF_V1-7.pdf#> .
 @prefix casShapes_ReqIF: <https://product-information-graph.org/v0.2/ontology/shapes/ReqIF#> .
 @prefix cas: <https://product-information-graph.org/v0.2/metamodel#> .
@@ -27,7 +29,7 @@ d:
 	owl:imports <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ,
 		<http://www.w3.org/2000/01/rdf-schema#> ;
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-	dcterms:modified "2026-03-25T11:03:36.905Z" .
+	dcterms:modified "2026-03-25T14:27:25.758Z" .
 
 #################################################################
 # CASCaRA Metamodel
@@ -88,15 +90,15 @@ casShapes_cas:Artifact
 		sh:minCount 1
 	] .
 
-cas:Actor
+FMC:Actor
 	rdf:type owl:Class ;
 	rdfs:subClassOf cas:Artifact ;
 	rdfs:label "Actor" ;
 	skos:definition "A fundamental model-element class for actors (e.g. users, functions, systems, components, ...)." .
 
-casShapes_cas:Actor
+casShapes_FMC:Actor
 	rdf:type sh:NodeShape ;
-	sh:targetClass cas:Actor ;
+	sh:targetClass FMC:Actor ;
 	sh:property [ 
 		sh:path rdfs:label ;
 		sh:minCount 1
@@ -106,15 +108,15 @@ casShapes_cas:Actor
 		sh:minCount 1
 	] .
 
-cas:State
+FMC:State
 	rdf:type owl:Class ;
 	rdfs:subClassOf cas:Artifact ;
 	rdfs:label "State" ;
 	skos:definition "A fundamental model-element class for states (e.g. system or process states, information, form, color, ...)." .
 
-casShapes_cas:State
+casShapes_FMC:State
 	rdf:type sh:NodeShape ;
-	sh:targetClass cas:State ;
+	sh:targetClass FMC:State ;
 	sh:property [ 
 		sh:path rdfs:label ;
 		sh:minCount 1
@@ -124,15 +126,15 @@ casShapes_cas:State
 		sh:minCount 1
 	] .
 
-cas:Event
+FMC:Event
 	rdf:type owl:Class ;
 	rdfs:subClassOf cas:Artifact ;
 	rdfs:label "Event" ;
 	skos:definition "A fundamental model-element class for events (e.g. environmental or process events, ...)." .
 
-casShapes_cas:Event
+casShapes_FMC:Event
 	rdf:type sh:NodeShape ;
-	sh:targetClass cas:Event ;
+	sh:targetClass FMC:Event ;
 	sh:property [ 
 		sh:path rdfs:label ;
 		sh:minCount 1
@@ -735,7 +737,7 @@ d:S-wQQlInyilSxz8orwdb4LkPQlleM
 
 d:HierarchyRoot-P-SpecifClasses-8038477386
 	rdf:type cas:Root ;
-	dcterms:modified "2026-03-25T11:03:37.027Z" ;
+	dcterms:modified "2026-03-25T14:27:25.917Z" ;
 	rdfs:label "Hierarchy Root" ;
 	rdfs:comment "... anchoring all hierarchies of this graph (package)" ;
 	cas:lists (
@@ -749,7 +751,7 @@ d:HR-DzkcAagB81tgT15Np1xhXihyUnH
 	rdfs:label "Libraries (Example)"@en ;
 	rdfs:comment "An ontology-based data-set with libraries, their books and authors."@en ;
 	cas:Category ReqIF:HierarchyRoot ;
-	dcterms:modified "2026-03-25T11:03:36.974Z" ;
+	dcterms:modified "2026-03-25T14:27:25.852Z" ;
 	cas:lists (
 			d:R-fn2kURwUacSnQukjzY7R85MaGp4
 		) .
@@ -769,7 +771,7 @@ d:HR-VwIj3cmDbcxdDek4bwKF0WJonPX
 	rdfs:label "Libraries (Example)"@en ;
 	rdfs:comment "An ontology-based data-set with libraries, their books and authors."@en ;
 	cas:Category ReqIF:HierarchyRoot ;
-	dcterms:modified "2026-03-25T11:03:36.974Z" ;
+	dcterms:modified "2026-03-25T14:27:25.852Z" ;
 	cas:lists (
 			d:R-nz5BukDj9QIchIjNNXGyme2nBLe
 		) .
@@ -790,7 +792,7 @@ d:HR-0hQJf7KNPOudiREdpChpPRvrLef
 	rdfs:label "Libraries (Example)"@en ;
 	rdfs:comment "An ontology-based data-set with libraries, their books and authors."@en ;
 	cas:Category ReqIF:HierarchyRoot ;
-	dcterms:modified "2026-03-25T11:03:36.974Z" ;
+	dcterms:modified "2026-03-25T14:27:25.852Z" ;
 	cas:lists (
 			d:R-jrm9qxsQCKcRUAfMawbf5Ncyv7P
 		) .
