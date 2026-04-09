@@ -7,6 +7,18 @@ nav_order: 90
 
 # Results
 
+### 2026-03-10 First issue of the CASCaRA Reference Implementation
+
+A joint effort resulted in a first issue of the CASCaRA Reference Implementation. It is intended for
+- validating the concepts of the upcoming CASCaRA Standard with real-world data,
+- providing a common base for enterprise software that assures interoperability through common data formats and transformations.
+
+The CASCaRA-App is open-source and offers an Apache 2.0 license allowing versatile adoption for practical purposes. 
+Right now there is just a bare minimum of features, but a plugin architecture allows for extension by different parties.
+
+Try it: [CASCaRA-App](https://app-alpha.product-information-graph.org/)
+
+
 ### 2026-01-12 Metamodel Implemented in RDF/Turtle and JSON-LD with JSON Schema
 
 The last quarter's work on the 'Magic Tetrahedron' has been finalized. That is, the PIG metamodel defines patterns for RDF/Turtle, JSON-LD
