@@ -7,6 +7,15 @@ nav_order: 90
 
 # Results
 
+### 2026-03-23 Revised Submission of CASCaRA at OMG TC Meeting in Reston VA
+
+A revised Submission of CASCaRA has been discussed in the OMG Manufacturing Domain Task Force (MANTIS) and the Ontology Platform Special Interest Group (Ontology PSIG). The interest is growing!
+
+Discussion Topics were the latest revision of the metamodel and of the ontology. Improvements have been made based on the experience with the reference implementation and customer feedback. 
+
+Have a look: <a href="../assets/documents/mantis-2026-02-02%20CASCaRA%20V1.2.pdf" target="_blank" >2026-03-02 CASCaRA Revised Submission</a>.
+
+
 ### 2026-03-10 First issue of the CASCaRA Reference Implementation
 
 A joint effort resulted in a first issue of the CASCaRA Reference Implementation. It is intended for
